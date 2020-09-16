@@ -27,7 +27,7 @@ import ichinaVideoHz from 'ichinae-video-hz'
 
 //务必指定包裹父容器
 <div class="videbox">
-    <ichinaVideo ref="video" :video-option="videoOption" :vms-option="vmsOption" />
+    <ichina-video-hz ref="video" :video-option="videoOption" :vms-option="vmsOption" />
  </div>
 
  .videbox{
