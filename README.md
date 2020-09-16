@@ -1,13 +1,11 @@
-# ichinae-video-hz
-
 # 本插件仅用于赫章数据网，已经做了视频服务器ip映射。
 
-# ichinae-video
+# ichinae-video-hz
 
 ## install
 
 ```bash
-npm install ichinae-video
+npm install ichinae-video-hz
 ```
 
 ## demo
@@ -19,11 +17,11 @@ npm run serve
 ## use
 
 ```bash
-import ichinaVideo from 'ichinae-video'
+import ichinaVideoHz from 'ichinae-video-hz'
 ...
 ...
   components: {
-    ichinaVideo
+    ichinaVideoHz
   }
 ...
 
