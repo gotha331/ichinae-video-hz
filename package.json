@@ -1,6 +1,6 @@
 {
   "name": "ichinae-video-hz",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ichinae flv video player for hezhang data network",
   "main": "dist/ichina-video.ssr.js",
   "browser": "dist/ichina-video.esm.js",
