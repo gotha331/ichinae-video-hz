@@ -1,4 +1,4 @@
-'use strict';Object.defineProperty(exports,'__esModule',{value:true});function _interopDefault(e){return(e&&(typeof e==='object')&&'default'in e)?e['default']:e}var axios=_interopDefault(require('axios')),ElementUI=_interopDefault(require('element-ui')),Vue=_interopDefault(require('vue'));function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
+'use strict';Object.defineProperty(exports,'__esModule',{value:true});var axios=require('axios'),ElementUI=require('element-ui'),Vue=require('vue');function _interopDefaultLegacy(e){return e&&typeof e==='object'&&'default'in e?e:{'default':e}}var axios__default=/*#__PURE__*/_interopDefaultLegacy(axios);var ElementUI__default=/*#__PURE__*/_interopDefaultLegacy(ElementUI);var Vue__default=/*#__PURE__*/_interopDefaultLegacy(Vue);function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
     var info = gen[key](arg);
     var value = info.value;
@@ -1114,13 +1114,15 @@ var base64 = {
   }
 };/*
  * @Date: 2020-07-02 15:03:04
- * @LastEditors: wangzhichiao<https://github.com/wzc570738205>
- * @LastEditTime: 2020-08-21 15:29:18
+ * @LastEditors: jiang.liu
+ * @LastEditTime: 2020-09-22 16:57:44
+ * @edit By wangwei 2020-09-09 
+ * @reasion line-31 for cross
  */
 var vmsService = {
   login: function login(ipcLinkInfo, data) {
-    return axios({
-      url: "".concat(ipcLinkInfo.serverIP, "/VMS2Service.cgi?Cmd=UserLogin"),
+    return axios__default['default']({
+      url: "http://".concat(ipcLinkInfo.serverIP, "/VMS2Service.cgi?Cmd=UserLogin"),
       method: 'get',
       params: {},
       headers: {
@@ -1129,17 +1131,18 @@ var vmsService = {
     });
   },
   getIpInfo: function getIpInfo(ipcLinkInfo, data) {
-    return axios({
-      url: "".concat(ipcLinkInfo.serverIP, "/VMS2Service.cgi?Cmd=DeviceGetIPCLinkInfo"),
+    return axios__default['default']({
+      url: "http://".concat(ipcLinkInfo.serverIP, "/VMS2Service.cgi?Cmd=DeviceGetIPCLinkInfo"),
       method: 'post',
       data: JSON.stringify(data),
       headers: {
-        'auth-token': getToken()
+        'auth-token': getToken(),
+        "Content-Type": "application/x-www-form-urlencoded"
       }
     });
   },
   getRecordList: function getRecordList(ip, ipcLinkInfo, data) {
-    return axios({
+    return axios__default['default']({
       url: "http://".concat(ip, ":").concat(ipcLinkInfo.serverPort, "/command?cmd=getrecordlist"),
       method: 'get',
       params: data,
@@ -1149,7 +1152,7 @@ var vmsService = {
     });
   },
   setvideorate: function setvideorate(ip, ipcLinkInfo, data) {
-    return axios({
+    return axios__default['default']({
       url: "http://".concat(ip, ":").concat(ipcLinkInfo.serverPort, "/command?cmd=setvideorate"),
       method: 'get',
       params: data,
@@ -1158,9 +1161,9 @@ var vmsService = {
       }
     });
   }
-};Vue.use(ElementUI);
+};Vue__default['default'].use(ElementUI__default['default']);
 var script$1 = {
-  name: "ichinaeVideo",
+  name: 'ichinaeVideo',
   components: {
     timeline: __vue_component__
   },
@@ -1172,6 +1175,10 @@ var script$1 = {
     vmsOption: {
       type: Object,
       required: true
+    },
+    monitorList: {
+      type: Object,
+      required: false
     }
   },
   data: function data() {
@@ -1188,7 +1195,71 @@ var script$1 = {
           return time.getTime() > Date.now() - 24 * 60 * 60 * 1000;
         }
       },
-      ipcLinkInfo: {}
+      ipcLinkInfo: {},
+      serverMappingTable: [{
+        serverIP: '20.255.7.230',
+        mappingIP: '172.25.104.4'
+      }, {
+        serverIP: '20.255.7.231',
+        mappingIP: '172.25.104.5'
+      }, {
+        serverIP: '20.255.7.232',
+        mappingIP: '172.25.104.6'
+      }, {
+        serverIP: '20.255.7.233',
+        mappingIP: '172.25.104.7'
+      }, {
+        serverIP: '20.255.7.234',
+        mappingIP: '172.25.104.8'
+      }, {
+        serverIP: '20.255.7.235',
+        mappingIP: '172.25.104.9'
+      }, {
+        serverIP: '20.255.7.236',
+        mappingIP: '172.25.104.10'
+      }, {
+        serverIP: '20.255.7.237',
+        mappingIP: '172.25.104.11'
+      }, {
+        serverIP: '20.255.7.238',
+        mappingIP: '172.25.104.12'
+      }, {
+        serverIP: '20.255.7.239',
+        mappingIP: '172.25.104.13'
+      }, {
+        serverIP: '20.255.7.240',
+        mappingIP: '172.25.104.2'
+      }, {
+        serverIP: '20.255.7.241',
+        mappingIP: '172.25.104.15'
+      }, {
+        serverIP: '20.255.7.242',
+        mappingIP: '172.25.104.3'
+      }, {
+        serverIP: '20.255.7.243',
+        mappingIP: '172.25.104.17'
+      }, {
+        serverIP: '20.255.7.244',
+        mappingIP: '172.25.104.18'
+      }, {
+        serverIP: '20.255.7.245',
+        mappingIP: '172.25.104.19'
+      }, {
+        serverIP: '20.255.7.246',
+        mappingIP: '172.25.104.20'
+      }, {
+        serverIP: '20.255.7.247',
+        mappingIP: '172.25.104.21'
+      }, {
+        serverIP: '20.255.7.248',
+        mappingIP: '172.25.104.22'
+      }, {
+        serverIP: '20.255.7.249',
+        mappingIP: '172.25.104.14'
+      }, {
+        serverIP: '20.255.7.250',
+        mappingIP: '172.25.104.16'
+      }]
     };
   },
   computed: {},
@@ -1340,9 +1411,9 @@ var script$1 = {
         ctx.fillStyle = 'rgb(255, 255, 255, .6)';
         ctx.font = 'bold 45px 微软雅黑';
         ctx.textAlign = 'left';
-        ctx.fillText(text, canvas.width * 0.15, canvas.height * 0.10);
-        ctx.fillText(text, canvas.width * 0.45, canvas.height * 0.40);
-        ctx.fillText(text, canvas.width * 0.75, canvas.height * 0.70);
+        ctx.fillText(text, canvas.width * 0.15, canvas.height * 0.1);
+        ctx.fillText(text, canvas.width * 0.45, canvas.height * 0.4);
+        ctx.fillText(text, canvas.width * 0.75, canvas.height * 0.7);
         canvas.toBlob(function (blob) {
           return resolve(blob);
         });
@@ -1586,75 +1657,176 @@ var script$1 = {
         }, _callee2);
       }))();
     },
-    getVMSTOKEN: function getVMSTOKEN(id) {
+    // 初始化时，批量加载视频的方法。不分屏，分屏数默认为1
+    initvideo: function initvideo(name, id, index, isReolay, replayTime) {
       var _this7 = this;
 
       return _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee3() {
-        var _yield$vmsService$get, ipcLinkInfo, url, isplay;
-
+        var vmsInfo;
         return regeneratorRuntime.wrap(function _callee3$(_context3) {
           while (1) {
             switch (_context3.prev = _context3.next) {
               case 0:
-                _context3.next = 2;
-                return _this7.vmsLogin(_this7.vmsOption.vmslogin, _this7.vmsOption.ipcLinkInfo);
-
-              case 2:
-                _context3.next = 4;
-                return vmsService.getIpInfo(_this7.vmsOption.ipcLinkInfo, {
-                  'ipcID': id
-                }).then(function (res) {
-                  console.log(res);
-                  return res.data;
+                _this7.videoList.forEach(function (e) {
+                  if (e.flvPlayer && e.flvPlayer._receivedCanPlay) {
+                    e.flvPlayer.destroy();
+                  }
                 });
 
-              case 4:
-                _yield$vmsService$get = _context3.sent;
-                ipcLinkInfo = _yield$vmsService$get.ipcLinkInfo;
-                console.log(ipcLinkInfo);
-                _this7.ipcLinkInfo = ipcLinkInfo;
+                _this7.videoList = [];
 
-                if (ipcLinkInfo) {
-                  _context3.next = 11;
+                _this7.videoList.push({
+                  id: 'videoElement' + index,
+                  show: true,
+                  // 是否展示 4<=>1
+                  isChecked: false,
+                  // 是否在视频窗格中
+                  autoplay: true,
+                  // 自动播放
+                  playState: true,
+                  // 播放状态
+                  mediaRecord: false,
+                  // 录像状态
+                  loading: false,
+                  fullScreen: false,
+                  span: _this7.formatSpam(1),
+                  // 分屏
+                  timecell: [],
+                  // 录像段
+                  speed: 1,
+                  // 回放速度 1 2 4
+                  playCellIndex: 0,
+                  // 当前播放录像段
+                  startPlayTime: false,
+                  // 时间轴是否走动
+                  startTime: new Date(new Date().getTime() - 24 * 60 * 60 * 1000)
+                }); // 一屏播放替换url
+
+
+                if (!(_this7.videoOption.size === 1)) {
+                  _context3.next = 12;
                   break;
                 }
 
-                _this7.$message.error('获取视频地址失败');
+                _context3.next = 6;
+                return _this7.getVMSTOKEN(id);
+
+              case 6:
+                vmsInfo = _context3.sent;
+
+                if (vmsInfo) {
+                  _context3.next = 9;
+                  break;
+                }
 
                 return _context3.abrupt("return");
 
+              case 9:
+                _this7.$set(_this7.videoList[_this7.activeIndex], 'loading', true);
+
+                _this7.commontPushVideo(_this7.activeIndex, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo);
+
+                if (isReolay) {
+                  _this7.toggleReplay(_this7.activeIndex);
+
+                  _this7.changeLine(replayTime, _this7.videoList[_this7.activeIndex], _this7.activeIndex, 'picker');
+                }
+
+              case 12:
+              case "end":
+                return _context3.stop();
+            }
+          }
+        }, _callee3);
+      }))();
+    },
+    getVMSTOKEN: function getVMSTOKEN(id) {
+      var _this8 = this;
+
+      return _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee4() {
+        var _yield$vmsService$get, ipcLinkInfo, url, isplay;
+
+        return regeneratorRuntime.wrap(function _callee4$(_context4) {
+          while (1) {
+            switch (_context4.prev = _context4.next) {
+              case 0:
+                _context4.next = 2;
+                return _this8.vmsLogin(_this8.vmsOption.vmslogin, _this8.vmsOption.ipcLinkInfo);
+
+              case 2:
+                _context4.next = 4;
+                return vmsService.getIpInfo(_this8.vmsOption.ipcLinkInfo, {
+                  ipcID: id
+                }).then(function (res) {
+                  var serverInfo = {
+                    ipcLinkInfo: {
+                      serverIP: ''
+                    }
+                  };
+
+                  if (res.data.ipcLinkInfo) {
+                    var tempInfo = _this8.serverMappingTable.find(function (item) {
+                      return item.serverIP == res.data.ipcLinkInfo.serverIP;
+                    });
+
+                    serverInfo = {
+                      ipcLinkInfo: {
+                        serverIP: tempInfo.mappingIP
+                      }
+                    };
+                    return serverInfo;
+                  } else {
+                    return 0;
+                  }
+                });
+
+              case 4:
+                _yield$vmsService$get = _context4.sent;
+                ipcLinkInfo = _yield$vmsService$get.ipcLinkInfo;
+                console.log(ipcLinkInfo);
+                _this8.ipcLinkInfo = ipcLinkInfo;
+
+                if (ipcLinkInfo) {
+                  _context4.next = 11;
+                  break;
+                }
+
+                _this8.$message.error('获取视频地址失败');
+
+                return _context4.abrupt("return");
+
               case 11:
                 // eslint-disable-next-line require-atomic-updates
-                url = "http://".concat(ipcLinkInfo.serverIP, ":").concat(_this7.vmsOption.ipcLinkInfo.serverPort, "/live?devid=").concat(id, "&channel=0"); // 重复点击视频视觉提示
+                url = "http://".concat(ipcLinkInfo.serverIP, ":").concat(_this8.vmsOption.ipcLinkInfo.serverPort, "/live?devid=").concat(id, "&channel=0"); // 重复点击视频视觉提示
 
-                isplay = _this7.videoList.findIndex(function (e) {
+                isplay = _this8.videoList.findIndex(function (e) {
                   return e.src === url;
                 });
 
                 if (!(isplay > -1)) {
-                  _context3.next = 17;
+                  _context4.next = 17;
                   break;
                 }
 
-                _this7.$set(_this7.videoList[isplay], 'isChecked', true);
+                _this8.$set(_this8.videoList[isplay], 'isChecked', true);
 
                 setTimeout(function () {
-                  _this7.$set(_this7.videoList[isplay], 'isChecked', false);
+                  _this8.$set(_this8.videoList[isplay], 'isChecked', false);
                 }, 500);
-                return _context3.abrupt("return");
+                return _context4.abrupt("return");
 
               case 17:
-                return _context3.abrupt("return", Promise.resolve({
+                return _context4.abrupt("return", Promise.resolve({
                   url: url,
                   ipcLinkInfo: ipcLinkInfo
                 }));
 
               case 18:
               case "end":
-                return _context3.stop();
+                return _context4.stop();
             }
           }
-        }, _callee3);
+        }, _callee4);
       }))();
     },
     commontPushVideo: function commontPushVideo(index, url, name, id, ipcLinkInfo) {
@@ -1722,7 +1894,7 @@ var script$1 = {
     },
     // 4 <=> 1 屏切换
     dbclick: function dbclick(index) {
-      var _this8 = this;
+      var _this9 = this;
 
       if (this.videoList[index].fullScreen) {
         return;
@@ -1756,25 +1928,25 @@ var script$1 = {
 
         this.$set(this.videoList[index], 'span', this.formatSpam(this.videoOption.size));
         this.videoList.forEach(function (e, index) {
-          _this8.$set(_this8.videoList[index], 'show', true);
+          _this9.$set(_this9.videoList[index], 'show', true);
         });
       }
     },
     eventTester: function eventTester(index, Media, e) {
-      var _this9 = this;
+      var _this10 = this;
 
       Media.addEventListener(e, function () {
         if (e === 'loadeddata') {
           // console.log(e + ':' + Media.readyState)
-          _this9.$set(_this9.videoList[index], 'loading', false);
+          _this10.$set(_this10.videoList[index], 'loading', false);
 
-          _this9.changeSpeed(_this9.videoList[index], index, _this9.videoList[index].speed);
+          _this10.changeSpeed(_this10.videoList[index], index, _this10.videoList[index].speed);
 
-          _this9.$set(_this9.videoList[index], 'startPlayTime', true);
+          _this10.$set(_this10.videoList[index], 'startPlayTime', true);
 
-          _this9.$set(_this9.videoList[index], 'canPlay', true);
+          _this10.$set(_this10.videoList[index], 'canPlay', true);
 
-          _this9.$set(_this9.videoList[index], 'playState', true);
+          _this10.$set(_this10.videoList[index], 'playState', true);
         }
 
         if (e === 'progress') {
@@ -1843,7 +2015,7 @@ var script$1 = {
     },
     // 回放时间线控制
     changeLine: function changeLine(e, item, index, type) {
-      var _this10 = this;
+      var _this11 = this;
 
       if (this.videoList[index].flvPlayer && this.videoList[index].replaySrc && this.videoList[index].flvPlayer._receivedCanPlay) {
         this.videoList[index].flvPlayer.destroy();
@@ -1861,22 +2033,22 @@ var script$1 = {
           res = res.data;
 
           if (res.returnState) {
-            _this10.videoList[index].replaySrc = '';
+            _this11.videoList[index].replaySrc = '';
 
-            _this10.$message.error("".concat(new Date(e).toJSON().slice(0, 10), "\u6CA1\u6709\u5F55\u50CF"));
+            _this11.$message.error("".concat(new Date(e).toJSON().slice(0, 10), "\u6CA1\u6709\u5F55\u50CF"));
 
-            _this10.$set(_this10.videoList[index], 'startPlayTime', false);
+            _this11.$set(_this11.videoList[index], 'startPlayTime', false);
 
             return;
           }
 
-          _this10.videoList[index].timecell = [];
-          _this10.startTime = new Date(hs + res.recordList[0].startTime * 1000);
+          _this11.videoList[index].timecell = [];
+          _this11.startTime = new Date(hs + res.recordList[0].startTime * 1000);
           res.recordList.forEach(function (el) {
             var beginTime = new Date(hs + el.startTime * 1000).getTime();
             var endTime = new Date(hs + el.endTime * 1000).getTime();
 
-            _this10.videoList[index].timecell.push({
+            _this11.videoList[index].timecell.push({
               beginTime: beginTime,
               endTime: endTime,
               style: {
@@ -1885,14 +2057,14 @@ var script$1 = {
             });
           });
 
-          var playStart = playtime + '' + _this10.secondToDate(res.recordList[0].startTime);
+          var playStart = playtime + '' + _this11.secondToDate(res.recordList[0].startTime);
 
-          _this10.$set(_this10.videoList[index], 'playCellIndex', 0);
+          _this11.$set(_this11.videoList[index], 'playCellIndex', 0);
 
-          _this10.videoList[index].sid = new Date().getTime();
-          _this10.videoList[index].replaySrc = "http://".concat(_this10.videoList[index].serverIP, ":8000/playback?devid=").concat(_this10.videoList[index].videoId, "&playtime=").concat(playStart, "&sid=") + _this10.videoList[index].sid;
+          _this11.videoList[index].sid = new Date().getTime();
+          _this11.videoList[index].replaySrc = "http://".concat(_this11.videoList[index].serverIP, ":8000/playback?devid=").concat(_this11.videoList[index].videoId, "&playtime=").concat(playStart, "&sid=") + _this11.videoList[index].sid;
 
-          _this10.loadvideo(index, _this10.videoList[index], 'replay');
+          _this11.loadvideo(index, _this11.videoList[index], 'replay');
         });
       } else {
         // 拖动时间轴触发
@@ -1905,7 +2077,7 @@ var script$1 = {
             if (clickTime > el.beginTime && clickTime < el.endTime) {
               isClickStart = true;
 
-              _this10.$set(_this10.videoList[index], 'playCellIndex', dx);
+              _this11.$set(_this11.videoList[index], 'playCellIndex', dx);
             }
           }
         });
@@ -1957,7 +2129,7 @@ var script$1 = {
       });
     },
     changeSpeed: function changeSpeed(item, index, speed) {
-      var _this11 = this;
+      var _this12 = this;
 
       var video = document.getElementById(item.id);
       vmsService.setvideorate(this.ipcLinkInfo.serverIP, this.vmsOption.ipcLinkInfo, {
@@ -1968,12 +2140,12 @@ var script$1 = {
         res = res.data;
 
         if (res.returnState.stateCode === 0) {
-          _this11.$set(_this11.videoList[index], 'speed', speed);
+          _this12.$set(_this12.videoList[index], 'speed', speed);
         } else {
-          _this11.$set(_this11.videoList[index], 'speed', 1);
+          _this12.$set(_this12.videoList[index], 'speed', 1);
         }
 
-        video.playbackRate = _this11.videoList[index].speed;
+        video.playbackRate = _this12.videoList[index].speed;
       });
     },
     playReplayStop: function playReplayStop(playIndex, item, index) {
@@ -2007,7 +2179,7 @@ var __vue_render__$1 = function __vue_render__() {
       }, {
         hide: !item.show
       }, {
-        'animate__shakeX': item.isChecked
+        animate__shakeX: item.isChecked
       }],
       staticStyle: {
         "overflow": "hidden"
@@ -2258,7 +2430,7 @@ var __vue_render__$1 = function __vue_render__() {
           return _vm.changeSpeed(item, index, 1);
         }
       }
-    }, [_vm._v("1.0X")]), _vm._v(" "), _c('span', {
+    }, [_vm._v("\n              1.0X\n            ")]), _vm._v(" "), _c('span', {
       staticClass: "speed",
       class: item.speed === 2 ? 'active' : '',
       on: {
@@ -2266,7 +2438,7 @@ var __vue_render__$1 = function __vue_render__() {
           return _vm.changeSpeed(item, index, 2);
         }
       }
-    }, [_vm._v("2.0X")]), _vm._v(" "), _c('span', {
+    }, [_vm._v("\n              2.0X\n            ")]), _vm._v(" "), _c('span', {
       staticClass: "speed",
       class: item.speed === 4 ? 'active' : '',
       on: {
@@ -2274,7 +2446,7 @@ var __vue_render__$1 = function __vue_render__() {
           return _vm.changeSpeed(item, index, 4);
         }
       }
-    }, [_vm._v("4.0X")])]), _vm._v(" "), _c('el-date-picker', {
+    }, [_vm._v("\n              4.0X\n            ")])]), _vm._v(" "), _c('el-date-picker', {
       directives: [{
         name: "show",
         rawName: "v-show",
@@ -2331,7 +2503,7 @@ var __vue_staticRenderFns__$1 = [];
 
 var __vue_inject_styles__$1 = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-52cbc8b7_0", {
+  inject("data-v-359f081e_0", {
     source: ".videotemplate{user-select:none;height:100%;width:100%}.videotemplate .el-row{width:100%;height:100%;padding:0 5px!important;margin:0!important}.videotemplate .el-col{padding:0!important;height:100%}.videotemplate .fullScreen{position:fixed;top:0;left:0;z-index:9999;transition:all .5s}.videotemplate .videowrap{position:relative;transition:all .5s}.videotemplate .el-col-12,.videotemplate .el-col-6{height:50%}.videotemplate .el-col-8{height:33.3333%}.videotemplate .fullScreen,.videotemplate .videowrap{border:2px solid #000;height:100%;width:100%;background:#1e2427}.videotemplate .fullScreen .videoTitle,.videotemplate .videowrap .videoTitle{position:absolute;z-index:5;color:#fff;top:0;left:0}.videotemplate .fullScreen .water,.videotemplate .videowrap .water{user-select:none;position:absolute;color:#fff;opacity:.6;z-index:99;top:15%;left:10%;text-align:center;line-height:30px;font-size:30px;font-weight:600}.videotemplate .fullScreen .water3,.videotemplate .videowrap .water3{top:75%;left:70%}.videotemplate .fullScreen .water2,.videotemplate .videowrap .water2{top:45%;left:40%}.videotemplate .fullScreen video,.videotemplate .videowrap video{object-fit:fill}.videotemplate .fullScreen .control,.videotemplate .videowrap .control{display:flex;box-sizing:border-box;opacity:0;transition:opacity .5s;width:100%;height:40px;position:absolute;bottom:2px;left:2px}.videotemplate .fullScreen .control button,.videotemplate .videowrap .control button{background:0 0;border:none;padding:0}.videotemplate .fullScreen .control .play-speed,.videotemplate .videowrap .control .play-speed{width:130px;height:40px;border-radius:10px;background:rgba(0,0,0,.5);color:#fff;bottom:0}.videotemplate .fullScreen .control .play-speed:hover,.videotemplate .videowrap .control .play-speed:hover{color:#fff}.videotemplate .fullScreen .control .play-speed .speed,.videotemplate .videowrap .control .play-speed .speed{width:50px;height:100%;text-align:center;cursor:pointer;padding:0 5px}.videotemplate .fullScreen .control .play-speed .speed:hover,.videotemplate .videowrap .control .play-speed .speed:hover{color:#3075ff}.videotemplate .fullScreen .control .play-speed .speed.active,.videotemplate .videowrap .control .play-speed .speed.active{color:#3075ff}.videotemplate .fullScreen .control .el-date-editor,.videotemplate .videowrap .control .el-date-editor{height:40px!important;position:absolute;background:rgba(0,0,0,.5);border-radius:10px;right:5px;bottom:0;width:150px}.videotemplate .fullScreen .control .el-date-editor .el-input__inner,.videotemplate .videowrap .control .el-date-editor .el-input__inner{height:40px!important;background:rgba(0,0,0,.5);border:none}.videotemplate .fullScreen .control .el-date-editor .el-input__icon,.videotemplate .videowrap .control .el-date-editor .el-input__icon{line-height:40px}.videotemplate .fullScreen:hover .closrControl,.videotemplate .fullScreen:hover .control,.videotemplate .videowrap:hover .closrControl,.videotemplate .videowrap:hover .control{cursor:pointer;opacity:1;transition:opacity .5s}.videotemplate .tcl{position:absolute;opacity:0;color:red;top:10px;font-weight:600;left:10px;font-size:20px;animation:flash 1s infinite}@keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.videotemplate .closrControl{position:absolute;opacity:0;top:10px;right:10px;z-index:999999999}.videotemplate .closrControl button{background:0 0;border:none;padding:0}.videotemplate .error{position:absolute;width:100%;height:100%;background:rgba(0,0,0,.8);top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column}.videotemplate .error>span{padding:20px 0;font-size:20px;color:red}.videotemplate .timeline canvas{width:100%}.videotemplate .show{display:block}.videotemplate .hide{display:none}.videotemplate .animate__animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.videotemplate .animate__shakeX{-webkit-animation-name:shakeX;animation-name:shakeX}@-webkit-keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}",
     map: undefined,
     media: undefined
@@ -2343,7 +2515,7 @@ var __vue_inject_styles__$1 = function __vue_inject_styles__(inject) {
 var __vue_scope_id__$1 = undefined;
 /* module identifier */
 
-var __vue_module_identifier__$1 = "data-v-52cbc8b7";
+var __vue_module_identifier__$1 = "data-v-359f081e";
 /* functional template */
 
 var __vue_is_functional_template__$1 = false;
