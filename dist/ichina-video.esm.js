@@ -11634,15 +11634,8 @@ var script$1 = {
     async getVMSTOKEN (id) {
       // vms 登录
       await this.vmsLogin(this.vmsOption.vmslogin, this.vmsOption.ipcLinkInfo)
+
       const serverMappingTable = [
-        {
-          serverIP: '20.255.7.240',
-          mappingIP: '172.25.104.2'
-        },
-        {
-          serverIP: '20.255.7.242',
-          mappingIP: '172.25.104.3'
-        },
         {
           serverIP: '20.255.7.230',
           mappingIP: '172.25.104.4'
@@ -11654,6 +11647,79 @@ var script$1 = {
         {
           serverIP: '20.255.7.232',
           mappingIP: '172.25.104.6'
+        },
+        {
+          serverIP: '20.255.7.233',
+          mappingIP: '172.25.104.7'
+        },
+        {
+          serverIP: '20.255.7.234',
+          mappingIP: '172.25.104.8'
+        },
+
+        {
+          serverIP: '20.255.7.235',
+          mappingIP: '172.25.104.9'
+        },
+        {
+          serverIP: '20.255.7.236',
+          mappingIP: '172.25.104.10'
+        },
+        {
+          serverIP: '20.255.7.237',
+          mappingIP: '172.25.104.11'
+        },
+        {
+          serverIP: '20.255.7.238',
+          mappingIP: '172.25.104.12'
+        },
+        {
+          serverIP: '20.255.7.239',
+          mappingIP: '172.25.104.13'
+        },
+        {
+          serverIP: '20.255.7.240',
+          mappingIP: '172.25.104.2'
+        },
+        {
+          serverIP: '20.255.7.241',
+          mappingIP: '172.25.104.15'
+        },
+        {
+          serverIP: '20.255.7.242',
+          mappingIP: '172.25.104.3'
+        },
+        {
+          serverIP: '20.255.7.243',
+          mappingIP: '172.25.104.17'
+        },
+        {
+          serverIP: '20.255.7.244',
+          mappingIP: '172.25.104.18'
+        },
+        {
+          serverIP: '20.255.7.245',
+          mappingIP: '172.25.104.19'
+        },
+        {
+          serverIP: '20.255.7.246',
+          mappingIP: '172.25.104.20'
+        },
+        {
+          serverIP: '20.255.7.247',
+          mappingIP: '172.25.104.21'
+        },
+        {
+          serverIP: '20.255.7.248',
+          mappingIP: '172.25.104.22'
+        },
+        {
+          serverIP: '20.255.7.249',
+          mappingIP: '172.25.104.14'
+        },
+        {
+          serverIP: '20.255.7.250',
+          mappingIP: '172.25.104.16'
         }
       ]
 
@@ -11662,8 +11728,6 @@ var script$1 = {
           ipcID: id
         })
         .then(res => {
-          console.log(res)
-          // return res.data;
           let serverInfo = {
             "ipcLinkInfo": {
               "serverIP": ''
@@ -11686,7 +11750,7 @@ var script$1 = {
             return 0
           }
         })
-      console.log(ipcLinkInfo)
+
       this.ipcLinkInfo = ipcLinkInfo
 
       if (!ipcLinkInfo) {
@@ -11695,7 +11759,6 @@ var script$1 = {
       } // eslint-disable-next-line require-atomic-updates
 
       const url = `http://${ipcLinkInfo.serverIP}:${this.vmsOption.ipcLinkInfo.serverPort}/live?devid=${id}&channel=0` // 重复点击视频视觉提示
-      // const url = `http://localhost:8004/live?devid=${id}&channel=0`; // 重复点击视频视觉提示
 
       const isplay = this.videoList.findIndex(e => e.src === url)
 
