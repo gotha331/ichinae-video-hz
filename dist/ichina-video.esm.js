@@ -11254,7 +11254,8 @@ var vmsService = {
       method: 'post',
       data: JSON.stringify(data),
       headers: {
-        'auth-token': getToken()
+        'auth-token': getToken(),
+        'Content-Type': 'application/x-www-form-urlencoded'
       }
     })
   },
@@ -11630,6 +11631,67 @@ var script$1 = {
         }
       }
     },
+
+
+    async initvideo (index, name, id, isReolay, replayTime) {
+      // 一屏播放替换url
+      if (this.videoOption.size === 1) {
+        const vmsInfo = await this.getVMSTOKEN(id)
+
+        if (!vmsInfo) {
+          return
+        }
+
+        this.activeIndex = index
+        this.$set(this.videoList[this.activeIndex], 'loading', true)
+        this.commontPushVideo(this.activeIndex, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo)
+
+        if (isReolay) {
+          this.toggleReplay(this.activeIndex)
+          this.changeLine(replayTime, this.videoList[this.activeIndex], this.activeIndex, 'picker')
+        }
+      } else {
+        // 4屏播放替换push url，末尾替换url
+        const index = this.videoList.findIndex(
+          e => JSON.stringify(e.flvPlayer) === '{}' || e.flvPlayer === undefined
+        )
+
+        if (index > -1) {
+          const vmsInfo = await this.getVMSTOKEN(id)
+
+          if (!vmsInfo) {
+            return
+          }
+
+          this.$set(this.videoList[index], 'loading', true)
+          this.commontPushVideo(index, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo)
+
+          if (isReolay) {
+            this.toggleReplay(index)
+            this.changeLine(replayTime, this.videoList[index], index, 'picker')
+          }
+        }
+
+        if (index === -1) {
+          const itemLength = this.videoList.length - 1
+          const vmsInfo = await this.getVMSTOKEN(id)
+
+          if (!vmsInfo) {
+            return
+          }
+
+          this.$set(this.videoList[itemLength], 'loading', true)
+          this.commontPushVideo(itemLength, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo)
+
+          if (isReolay) {
+            this.toggleReplay(itemLength)
+            this.changeLine(replayTime, this.videoList[itemLength], itemLength, 'picker')
+          }
+        }
+      }
+    },
+
+
 
     async getVMSTOKEN (id) {
       // vms 登录
