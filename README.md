@@ -44,8 +44,7 @@ data() {
         videoOption: {
             size: 4, // 分频数  1 4
             text: 'admin', // 水印名字
-            disabledDb: true, // 禁用双击
-            bigness:'small' //适配较小视频视窗，默认正常大小，不用添加此参数
+            disabledDb: true // 禁用双击
         },
         vmsOption: {
             ipcLinkInfo: {
@@ -68,6 +67,7 @@ data() {
 | size       | 分屏数           | 1/4/6/8/9 |        | true     |
 | text       | 水印             | string    | ''     | false    |
 | disabledDb | 是否禁用双击事件 | Boolean   | false  | false    |
+| bigness    | 视窗大小         | 'small'   | ''     | false    |
 
 #### vmsOption
 
