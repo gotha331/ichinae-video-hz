@@ -771,8 +771,8 @@ var __vue_staticRenderFns__ = [];
 
 const __vue_inject_styles__ = function (inject) {
   if (!inject) return;
-  inject("data-v-2303b662_0", {
-    source: ".canvas[data-v-2303b662]{width:100%}.btn .play-speed[data-v-2303b662]{width:167px;height:25px;border-radius:5px;background:rgba(0,0,0,.5);float:right;display:flex;color:#fff;justify-content:space-around;align-content:center;line-height:25px}.btn .play-speed>div[data-v-2303b662]{width:50px;height:100%;text-align:center;cursor:pointer}.btn .play-speed>div.active[data-v-2303b662]{color:#3075ff}.btn[data-v-2303b662]  .el-date-editor{float:right;height:25px!important;width:150px}.btn[data-v-2303b662]  .el-date-editor .el-input__inner{height:25px!important}.btn[data-v-2303b662]  .el-date-editor .el-input__icon{line-height:25px}",
+  inject("data-v-e48ccfb2_0", {
+    source: ".canvas[data-v-e48ccfb2]{width:100%}.btn .play-speed[data-v-e48ccfb2]{width:167px;height:25px;border-radius:5px;background:rgba(0,0,0,.5);float:right;display:flex;color:#fff;justify-content:space-around;align-content:center;line-height:25px}.btn .play-speed>div[data-v-e48ccfb2]{width:50px;height:100%;text-align:center;cursor:pointer}.btn .play-speed>div.active[data-v-e48ccfb2]{color:#3075ff}.btn[data-v-e48ccfb2]  .el-date-editor{float:right;height:25px!important;width:150px}.btn[data-v-e48ccfb2]  .el-date-editor .el-input__inner{height:25px!important}.btn[data-v-e48ccfb2]  .el-date-editor .el-input__icon{line-height:25px}",
     map: undefined,
     media: undefined
   });
@@ -780,7 +780,7 @@ const __vue_inject_styles__ = function (inject) {
 /* scoped */
 
 
-const __vue_scope_id__ = "data-v-2303b662";
+const __vue_scope_id__ = "data-v-e48ccfb2";
 /* module identifier */
 
 const __vue_module_identifier__ = undefined;
@@ -1187,7 +1187,7 @@ var vmsService = {
 //
 Vue.use(ElementUI);
 var script$1 = {
-  name: 'ichinaeVideo',
+  name: "ichinaeVideo",
   components: {
     timeline: __vue_component__
   },
@@ -1212,7 +1212,7 @@ var script$1 = {
       activeIndex: null,
       videoList: [],
       // 视频dom
-      imgsrc: '',
+      imgsrc: "",
       // 截图
       startTime: new Date(new Date().getTime() - 24 * 60 * 60 * 1000),
       pickerOptions: {
@@ -1223,68 +1223,68 @@ var script$1 = {
       },
       ipcLinkInfo: {},
       serverMappingTable: [{
-        serverIP: '20.255.7.230',
-        mappingIP: '172.25.104.4'
+        serverIP: "20.255.7.230",
+        mappingIP: "172.25.104.4"
       }, {
-        serverIP: '20.255.7.231',
-        mappingIP: '172.25.104.5'
+        serverIP: "20.255.7.231",
+        mappingIP: "172.25.104.5"
       }, {
-        serverIP: '20.255.7.232',
-        mappingIP: '172.25.104.6'
+        serverIP: "20.255.7.232",
+        mappingIP: "172.25.104.6"
       }, {
-        serverIP: '20.255.7.233',
-        mappingIP: '172.25.104.7'
+        serverIP: "20.255.7.233",
+        mappingIP: "172.25.104.7"
       }, {
-        serverIP: '20.255.7.234',
-        mappingIP: '172.25.104.8'
+        serverIP: "20.255.7.234",
+        mappingIP: "172.25.104.8"
       }, {
-        serverIP: '20.255.7.235',
-        mappingIP: '172.25.104.9'
+        serverIP: "20.255.7.235",
+        mappingIP: "172.25.104.9"
       }, {
-        serverIP: '20.255.7.236',
-        mappingIP: '172.25.104.10'
+        serverIP: "20.255.7.236",
+        mappingIP: "172.25.104.10"
       }, {
-        serverIP: '20.255.7.237',
-        mappingIP: '172.25.104.11'
+        serverIP: "20.255.7.237",
+        mappingIP: "172.25.104.11"
       }, {
-        serverIP: '20.255.7.238',
-        mappingIP: '172.25.104.12'
+        serverIP: "20.255.7.238",
+        mappingIP: "172.25.104.12"
       }, {
-        serverIP: '20.255.7.239',
-        mappingIP: '172.25.104.13'
+        serverIP: "20.255.7.239",
+        mappingIP: "172.25.104.13"
       }, {
-        serverIP: '20.255.7.240',
-        mappingIP: '172.25.104.2'
+        serverIP: "20.255.7.240",
+        mappingIP: "172.25.104.2"
       }, {
-        serverIP: '20.255.7.241',
-        mappingIP: '172.25.104.15'
+        serverIP: "20.255.7.241",
+        mappingIP: "172.25.104.15"
       }, {
-        serverIP: '20.255.7.242',
-        mappingIP: '172.25.104.3'
+        serverIP: "20.255.7.242",
+        mappingIP: "172.25.104.3"
       }, {
-        serverIP: '20.255.7.243',
-        mappingIP: '172.25.104.17'
+        serverIP: "20.255.7.243",
+        mappingIP: "172.25.104.17"
       }, {
-        serverIP: '20.255.7.244',
-        mappingIP: '172.25.104.18'
+        serverIP: "20.255.7.244",
+        mappingIP: "172.25.104.18"
       }, {
-        serverIP: '20.255.7.245',
-        mappingIP: '172.25.104.19'
+        serverIP: "20.255.7.245",
+        mappingIP: "172.25.104.19"
       }, {
-        serverIP: '20.255.7.246',
-        mappingIP: '172.25.104.20'
+        serverIP: "20.255.7.246",
+        mappingIP: "172.25.104.20"
       }, {
-        serverIP: '20.255.7.247',
-        mappingIP: '172.25.104.21'
+        serverIP: "20.255.7.247",
+        mappingIP: "172.25.104.21"
       }, {
-        serverIP: '20.255.7.248',
-        mappingIP: '172.25.104.22'
+        serverIP: "20.255.7.248",
+        mappingIP: "172.25.104.22"
       }, {
-        serverIP: '20.255.7.249',
-        mappingIP: '172.25.104.14'
+        serverIP: "20.255.7.249",
+        mappingIP: "172.25.104.14"
       }, {
-        serverIP: '20.255.7.250',
-        mappingIP: '172.25.104.16'
+        serverIP: "20.255.7.250",
+        mappingIP: "172.25.104.16"
       }]
     };
   },
@@ -1315,11 +1315,11 @@ var script$1 = {
       this.dbclick(0);
     }
 
-    document.addEventListener('keydown', event => {
+    document.addEventListener("keydown", event => {
       const keyCode = event.keyCode;
 
       if (keyCode === 27) {
-        this.fullScreen(this.activeIndex, 'esc');
+        this.fullScreen(this.activeIndex, "esc");
       } // 空格播放暂停
 
       /* if (keyCode === 32) {
@@ -1340,7 +1340,7 @@ var script$1 = {
   methods: {
     pickerchange(e, item, index) {
       e = new Date(e).getTime() + 12 * 3600 * 1000;
-      this.changeLine(e, item, index, 'picker');
+      this.changeLine(e, item, index, "picker");
     },
 
     destroyAll() {
@@ -1351,9 +1351,9 @@ var script$1 = {
 
     // 下载截图
     download(bolb, item) {
-      var a = document.createElement('a');
+      var a = document.createElement("a");
       var imgblob = new Blob([bolb], {
-        type: 'application/octet-stream'
+        type: "application/octet-stream"
       });
       a.href = URL.createObjectURL(imgblob);
       var filename = `${item.name}${new Date().toLocaleString()}.jpg`;
@@ -1363,13 +1363,13 @@ var script$1 = {
 
     // 截图
     capture(index, item) {
-      if (!item['canPlay']) {
-        this.$message.info('暂无视频播放');
+      if (!item["canPlay"]) {
+        this.$message.info("暂无视频播放");
         return;
       } // eslint-disable-next-line no-undef
 
 
-      $poster.videoScreenshot(document.getElementById('videoElement' + index), 0, async (e, res) => {
+      $poster.videoScreenshot(document.getElementById("videoElement" + index), 0, async (e, res) => {
         const img = await this.blobToImg(res[0].blob);
         const canvas = this.imgToCanvas(img);
         const blob = await this.watermark(canvas, this.videoOption.text);
@@ -1382,20 +1382,20 @@ var script$1 = {
     blobToImg(blob) {
       return new Promise(resolve => {
         const reader = new FileReader();
-        reader.addEventListener('load', () => {
+        reader.addEventListener("load", () => {
           const img = new Image();
           img.src = reader.result;
-          img.addEventListener('load', () => resolve(img));
+          img.addEventListener("load", () => resolve(img));
         });
         reader.readAsDataURL(blob);
       });
     },
 
     imgToCanvas(img) {
-      const canvas = document.createElement('canvas');
+      const canvas = document.createElement("canvas");
       canvas.width = img.width;
       canvas.height = img.height;
-      const ctx = canvas.getContext('2d');
+      const ctx = canvas.getContext("2d");
       ctx.drawImage(img, 0, 0);
       return canvas;
     },
@@ -1403,12 +1403,12 @@ var script$1 = {
     // 水印
     watermark(canvas, text) {
       return new Promise(resolve => {
-        const ctx = canvas.getContext('2d'); //  ctx.fillStyle = 'rgb(255, 235, 59, .5)'
+        const ctx = canvas.getContext("2d"); //  ctx.fillStyle = 'rgb(255, 235, 59, .5)'
         // ctx.fillRect(50, 20, 40, 30)
 
-        ctx.fillStyle = 'rgb(255, 255, 255, .6)';
-        ctx.font = 'bold 45px 微软雅黑';
-        ctx.textAlign = 'left';
+        ctx.fillStyle = "rgb(255, 255, 255, .6)";
+        ctx.font = "bold 45px 微软雅黑";
+        ctx.textAlign = "left";
         ctx.fillText(text, canvas.width * 0.15, canvas.height * 0.1);
         ctx.fillText(text, canvas.width * 0.45, canvas.height * 0.4);
         ctx.fillText(text, canvas.width * 0.75, canvas.height * 0.7);
@@ -1429,11 +1429,11 @@ var script$1 = {
     },
 
     loadvideo(index, item, type) {
-      this.$set(this.videoList[index], 'loading', true);
-      this.$set(this.videoList[index], 'error', false);
+      this.$set(this.videoList[index], "loading", true);
+      this.$set(this.videoList[index], "error", false);
       var videoElement = document.getElementById(item.id);
       this.videoList[index].flvPlayer = flvjs.createPlayer({
-        type: 'flv',
+        type: "flv",
         isLive: true,
         url: type ? item.replaySrc : item.src
       }, {
@@ -1444,9 +1444,9 @@ var script$1 = {
       this.videoList[index].flvPlayer.attachMediaElement(videoElement);
       this.videoList[index].flvPlayer.load();
       this.videoList[index].flvPlayer.on(flvjs.Events.ERROR, (errorType, errorDetail, errorInfo) => {
-        console.error('errorType:', errorType);
-        console.error('errorDetail:', errorDetail);
-        console.error('errorInfo:', errorInfo); // 如果视频播放出错就销毁player，用当前的url重新创建一个
+        console.error("errorType:", errorType);
+        console.error("errorDetail:", errorDetail);
+        console.error("errorInfo:", errorInfo); // 如果视频播放出错就销毁player，用当前的url重新创建一个
 
         if (this.videoList[index].flvPlayer) {
           this.videoList[index].flvPlayer.destroy();
@@ -1456,36 +1456,36 @@ var script$1 = {
           }
 
           if (errorInfo.code < 2) {
-            this.$set(this.videoList[index], 'canPlay', false);
-            this.$set(this.videoList[index], 'loading', false);
-            this.$set(this.videoList[index], 'error', true);
-            this.$set(this.videoList[index], 'startPlayTime', false);
+            this.$set(this.videoList[index], "canPlay", false);
+            this.$set(this.videoList[index], "loading", false);
+            this.$set(this.videoList[index], "error", true);
+            this.$set(this.videoList[index], "startPlayTime", false);
 
             if (!this.videoList[index].live) {
-              this.$message.error('视频加载失败');
+              this.$message.error("视频加载失败");
             } else {
-              this.$message.error('回放录像加载失败');
-              this.$set(this.videoList[index], 'error', false);
-              this.$set(this.videoList[index], 'replaySrc', '');
+              this.$message.error("回放录像加载失败");
+              this.$set(this.videoList[index], "error", false);
+              this.$set(this.videoList[index], "replaySrc", "");
             }
           }
         }
       });
-      this.eventTester(index, videoElement, 'progress');
-      this.eventTester(index, videoElement, 'loadeddata');
-      this.eventTester(index, videoElement, 'waiting'); // this.eventTester(index, videoElement, 'error')
+      this.eventTester(index, videoElement, "progress");
+      this.eventTester(index, videoElement, "loadeddata");
+      this.eventTester(index, videoElement, "waiting"); // this.eventTester(index, videoElement, 'error')
       // this.eventTester(index, videoElement, 'stalled')
     },
 
     // play pause
     toggle(index) {
-      if (!this.videoList[index]['canPlay']) {
-        this.$message.info('暂无视频播放');
+      if (!this.videoList[index]["canPlay"]) {
+        this.$message.info("暂无视频播放");
         return;
       }
 
-      this.$set(this.videoList[index], 'playState', !this.videoList[index].playState);
-      this.$set(this.videoList[index], 'startPlayTime', this.videoList[index].playState);
+      this.$set(this.videoList[index], "playState", !this.videoList[index].playState);
+      this.$set(this.videoList[index], "startPlayTime", this.videoList[index].playState);
 
       if (this.videoList[index].playState) {
         this.videoList[index].flvPlayer.play();
@@ -1505,7 +1505,7 @@ var script$1 = {
 
       for (let index = 0; index < num; index++) {
         this.videoList.push({
-          id: 'videoElement' + index,
+          id: "videoElement" + index,
           show: true,
           // 是否展示 4<=>1
           isChecked: false,
@@ -1542,16 +1542,16 @@ var script$1 = {
           return;
         }
 
-        this.$set(this.videoList[this.activeIndex], 'loading', true);
+        this.$set(this.videoList[this.activeIndex], "loading", true);
         this.commontPushVideo(this.activeIndex, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo);
 
         if (isReolay) {
           this.toggleReplay(this.activeIndex);
-          this.changeLine(replayTime, this.videoList[this.activeIndex], this.activeIndex, 'picker');
+          this.changeLine(replayTime, this.videoList[this.activeIndex], this.activeIndex, "picker");
         }
       } else {
         // 4屏播放替换push url，末尾替换url
-        const index = this.videoList.findIndex(e => JSON.stringify(e.flvPlayer) === '{}' || e.flvPlayer === undefined);
+        const index = this.videoList.findIndex(e => JSON.stringify(e.flvPlayer) === "{}" || e.flvPlayer === undefined);
 
         if (index > -1) {
           const vmsInfo = await this.getVMSTOKEN(id);
@@ -1560,12 +1560,12 @@ var script$1 = {
             return;
           }
 
-          this.$set(this.videoList[index], 'loading', true);
+          this.$set(this.videoList[index], "loading", true);
           this.commontPushVideo(index, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo);
 
           if (isReolay) {
             this.toggleReplay(index);
-            this.changeLine(replayTime, this.videoList[index], index, 'picker');
+            this.changeLine(replayTime, this.videoList[index], index, "picker");
           }
         }
 
@@ -1577,12 +1577,12 @@ var script$1 = {
             return;
           }
 
-          this.$set(this.videoList[itemLength], 'loading', true);
+          this.$set(this.videoList[itemLength], "loading", true);
           this.commontPushVideo(itemLength, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo);
 
           if (isReolay) {
             this.toggleReplay(itemLength);
-            this.changeLine(replayTime, this.videoList[itemLength], itemLength, 'picker');
+            this.changeLine(replayTime, this.videoList[itemLength], itemLength, "picker");
           }
         }
       }
@@ -1597,7 +1597,7 @@ var script$1 = {
       });
       this.videoList = [];
       this.videoList.push({
-        id: 'videoElement' + index,
+        id: "videoElement" + index,
         show: true,
         // 是否展示 4<=>1
         isChecked: false,
@@ -1630,12 +1630,12 @@ var script$1 = {
           return;
         }
 
-        this.$set(this.videoList[this.activeIndex], 'loading', true);
+        this.$set(this.videoList[this.activeIndex], "loading", true);
         this.commontPushVideo(this.activeIndex, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo);
 
         if (isReolay) {
           this.toggleReplay(this.activeIndex);
-          this.changeLine(replayTime, this.videoList[this.activeIndex], this.activeIndex, 'picker');
+          this.changeLine(replayTime, this.videoList[this.activeIndex], this.activeIndex, "picker");
         }
       }
     },
@@ -1650,7 +1650,7 @@ var script$1 = {
       }).then(res => {
         let serverInfo = {
           ipcLinkInfo: {
-            serverIP: ''
+            serverIP: ""
           }
         };
 
@@ -1672,7 +1672,7 @@ var script$1 = {
       this.ipcLinkInfo = ipcLinkInfo;
 
       if (!ipcLinkInfo) {
-        this.$message.error('获取视频地址失败');
+        this.$message.error("获取视频地址失败");
         return;
       } // eslint-disable-next-line require-atomic-updates
 
@@ -1682,9 +1682,9 @@ var script$1 = {
       const isplay = this.videoList.findIndex(e => e.src === url);
 
       if (isplay > -1) {
-        this.$set(this.videoList[isplay], 'isChecked', true);
+        this.$set(this.videoList[isplay], "isChecked", true);
         setTimeout(() => {
-          this.$set(this.videoList[isplay], 'isChecked', false);
+          this.$set(this.videoList[isplay], "isChecked", false);
         }, 500);
         return;
       }
@@ -1697,10 +1697,10 @@ var script$1 = {
 
     commontPushVideo(index, url, name, id, ipcLinkInfo) {
       this.destroy(index);
-      this.$set(this.videoList[index], 'src', url);
-      this.$set(this.videoList[index], 'name', name);
-      this.$set(this.videoList[index], 'videoId', id);
-      this.$set(this.videoList[index], 'serverIP', ipcLinkInfo.serverIP);
+      this.$set(this.videoList[index], "src", url);
+      this.$set(this.videoList[index], "name", name);
+      this.$set(this.videoList[index], "videoId", id);
+      this.$set(this.videoList[index], "serverIP", ipcLinkInfo.serverIP);
       this.loadvideo(index, this.videoList[index]);
     },
 
@@ -1710,14 +1710,14 @@ var script$1 = {
         this.videoList[index].flvPlayer.destroy();
       }
 
-      this.fullScreen(index, 'esc');
-      this.$delete(this.videoList[index], 'flvPlayer');
-      this.$set(this.videoList[index], 'loading', false);
-      this.$set(this.videoList[index], 'error', false);
-      this.$set(this.videoList[index], 'live', false);
-      this.$set(this.videoList[index], 'src', '');
-      this.$set(this.videoList[index], 'replaySrc', '');
-      this.$set(this.videoList[index], 'name', '');
+      this.fullScreen(index, "esc");
+      this.$delete(this.videoList[index], "flvPlayer");
+      this.$set(this.videoList[index], "loading", false);
+      this.$set(this.videoList[index], "error", false);
+      this.$set(this.videoList[index], "live", false);
+      this.$set(this.videoList[index], "src", "");
+      this.$set(this.videoList[index], "replaySrc", "");
+      this.$set(this.videoList[index], "name", "");
     },
 
     formatSpam(num) {
@@ -1755,10 +1755,10 @@ var script$1 = {
       this.timeKey = new Date().getTime();
 
       if (key) {
-        this.$set(this.videoList[index], 'fullScreen', false);
+        this.$set(this.videoList[index], "fullScreen", false);
       } else {
         this.activeIndex = index;
-        this.$set(this.videoList[index], 'fullScreen', !this.videoList[index].fullScreen);
+        this.$set(this.videoList[index], "fullScreen", !this.videoList[index].fullScreen);
       }
     },
 
@@ -1772,21 +1772,21 @@ var script$1 = {
       this.activeIndex = index;
 
       if (this.videoList[index].span !== 24) {
-        this.$set(this.videoList[index], 'span', 24);
-        this.$set(this.videoList[index], 'show', true);
+        this.$set(this.videoList[index], "span", 24);
+        this.$set(this.videoList[index], "show", true);
 
         for (let i = this.videoList.length - 1; i >= 0; i--) {
           const e = this.videoList[i];
 
           if (e.flvPlayer && e.flvPlayer._receivedCanPlay && i !== index) {
             e.flvPlayer.destroy();
-            this.$delete(this.videoList[i], 'flvPlayer');
+            this.$delete(this.videoList[i], "flvPlayer");
           }
 
           if (i !== index) {
             this.destroy(i);
-            this.$set(this.videoList[i], 'show', false);
-            this.$set(this.videoList[i], 'src', '');
+            this.$set(this.videoList[i], "show", false);
+            this.$set(this.videoList[i], "src", "");
           }
         }
       } else if (this.videoList[index].span === 24) {
@@ -1794,25 +1794,25 @@ var script$1 = {
           return;
         }
 
-        this.$set(this.videoList[index], 'span', this.formatSpam(this.videoOption.size));
+        this.$set(this.videoList[index], "span", this.formatSpam(this.videoOption.size));
         this.videoList.forEach((e, index) => {
-          this.$set(this.videoList[index], 'show', true);
+          this.$set(this.videoList[index], "show", true);
         });
       }
     },
 
     eventTester(index, Media, e) {
       Media.addEventListener(e, () => {
-        if (e === 'loadeddata') {
+        if (e === "loadeddata") {
           // console.log(e + ':' + Media.readyState)
-          this.$set(this.videoList[index], 'loading', false);
+          this.$set(this.videoList[index], "loading", false);
           this.changeSpeed(this.videoList[index], index, this.videoList[index].speed);
-          this.$set(this.videoList[index], 'startPlayTime', true);
-          this.$set(this.videoList[index], 'canPlay', true);
-          this.$set(this.videoList[index], 'playState', true);
+          this.$set(this.videoList[index], "startPlayTime", true);
+          this.$set(this.videoList[index], "canPlay", true);
+          this.$set(this.videoList[index], "playState", true);
         }
 
-        if (e === 'progress') {
+        if (e === "progress") {
           // 获取当前播放时间
           const curr = Media.currentTime; // 直播流缓存的最新帧
 
@@ -1828,12 +1828,12 @@ var script$1 = {
     // 开始录屏
     mediaRecording(index, item) {
       var canvas = document.getElementById(item.id);
-      this.$set(this.videoList[index], 'mediaRecord', true);
+      this.$set(this.videoList[index], "mediaRecord", true);
       item.allChunks = [];
       const stream2 = canvas.captureStream(60); // 60 FPS recording
 
       item.recorder = new MediaRecorder(stream2, {
-        mimeType: 'video/webm;codecs=vp9'
+        mimeType: "video/webm;codecs=vp9"
       });
 
       item.recorder.ondataavailable = e => {
@@ -1845,10 +1845,10 @@ var script$1 = {
 
     // 结束录屏
     stopAndblobDownload(index, item) {
-      this.$set(this.videoList[index], 'mediaRecord', false);
+      this.$set(this.videoList[index], "mediaRecord", false);
       item.recorder.stop();
-      const link = document.createElement('a');
-      link.style.display = 'none';
+      const link = document.createElement("a");
+      link.style.display = "none";
       const fullBlob = new Blob(item.allChunks);
       const downloadUrl = window.URL.createObjectURL(fullBlob);
       link.href = downloadUrl;
@@ -1861,23 +1861,23 @@ var script$1 = {
     // 回放 实时
     toggleReplay(index) {
       const item = this.videoList[index];
-      this.$set(this.videoList[index], 'loading', false);
+      this.$set(this.videoList[index], "loading", false);
 
       if (!item.live) {
         item.flvPlayer.destroy();
-        this.$set(this.videoList[index], 'canPlay', false);
-        this.$set(this.videoList[index], 'startPlayTime', false); // this.changeLine(new Date(new Date().getTime() - 24 * 60 * 60 * 1000), item, index, 'first')
+        this.$set(this.videoList[index], "canPlay", false);
+        this.$set(this.videoList[index], "startPlayTime", false); // this.changeLine(new Date(new Date().getTime() - 24 * 60 * 60 * 1000), item, index, 'first')
       } else {
         if (item.replaySrc) {
           item.flvPlayer.destroy();
         }
 
-        this.videoList[index].replaySrc = '';
+        this.videoList[index].replaySrc = "";
         this.loadvideo(index, item);
       } // vmsService.getRecordList
 
 
-      this.$set(this.videoList[index], 'live', !item.live);
+      this.$set(this.videoList[index], "live", !item.live);
     },
 
     // 回放时间线控制
@@ -1886,7 +1886,11 @@ var script$1 = {
         this.videoList[index].flvPlayer.destroy();
       }
 
-      const hs = new Date(new Date(e).toISOString().slice(0, 10) + ' 00:00:00').getTime();
+      if (!e) {
+        e = new Date().getTime();
+      }
+
+      const hs = new Date(new Date(e).toISOString().slice(0, 10) + " 00:00:00").getTime();
       const playtime = this.getPlayTime(e); // 选择日期触发
 
       if (type) {
@@ -1898,9 +1902,9 @@ var script$1 = {
           res = res.data;
 
           if (res.returnState) {
-            this.videoList[index].replaySrc = '';
+            this.videoList[index].replaySrc = "";
             this.$message.error(`${new Date(e).toJSON().slice(0, 10)}没有录像`);
-            this.$set(this.videoList[index], 'startPlayTime', false);
+            this.$set(this.videoList[index], "startPlayTime", false);
             return;
           }
 
@@ -1913,49 +1917,49 @@ var script$1 = {
               beginTime: beginTime,
               endTime: endTime,
               style: {
-                background: 'rgba(132, 244, 180, 0.498039)'
+                background: "rgba(132, 244, 180, 0.498039)"
               }
             });
           });
-          const playStart = playtime + '' + this.secondToDate(res.recordList[0].startTime);
-          this.$set(this.videoList[index], 'playCellIndex', 0);
+          const playStart = playtime + "" + this.secondToDate(res.recordList[0].startTime);
+          this.$set(this.videoList[index], "playCellIndex", 0);
           this.videoList[index].sid = new Date().getTime();
           this.videoList[index].replaySrc = `http://${this.videoList[index].serverIP}:8000/playback?devid=${this.videoList[index].videoId}&playtime=${playStart}&sid=` + this.videoList[index].sid;
-          this.loadvideo(index, this.videoList[index], 'replay');
+          this.loadvideo(index, this.videoList[index], "replay");
         });
       } else {
         // 拖动时间轴触发
         const clickTime = new Date(e).getTime();
         var isClickStart = false; // eslint-disable-next-line no-unused-vars
 
-        this.$set(this.videoList[index], 'playCellIndex', 0);
+        this.$set(this.videoList[index], "playCellIndex", 0);
         this.videoList[index].timecell.forEach((el, dx) => {
           if (!type) {
             if (clickTime > el.beginTime && clickTime < el.endTime) {
               isClickStart = true;
-              this.$set(this.videoList[index], 'playCellIndex', dx);
+              this.$set(this.videoList[index], "playCellIndex", dx);
             }
           }
         });
 
         if (!isClickStart) {
-          this.videoList[index].replaySrc = '';
-          this.$message.error('当前时间段无录像');
-          this.$set(this.videoList[index], 'startPlayTime', false);
+          this.videoList[index].replaySrc = "";
+          this.$message.error("当前时间段无录像");
+          this.$set(this.videoList[index], "startPlayTime", false);
           return;
         }
 
         var mimute = clickTime - hs;
-        const playStart = playtime + '' + this.secondToDate(mimute / 1000);
+        const playStart = playtime + "" + this.secondToDate(mimute / 1000);
         this.videoList[index].replaySrc = `http://${this.videoList[index].serverIP}:8000/playback?devid=${this.videoList[index].videoId}&playtime=${playStart}&sid=` + this.videoList[index].sid;
-        this.loadvideo(index, this.videoList[index], 'replay');
+        this.loadvideo(index, this.videoList[index], "replay");
       }
     },
 
     getPlayTime(e) {
       const y = new Date(e).getFullYear();
-      const m = new Date(e).getMonth() + 1 > 10 ? new Date(e).getMonth() + 1 : '0' + (new Date(e).getMonth() + 1);
-      const d = new Date(e).getDate() > 10 ? new Date(e).getDate() : '0' + new Date(e).getDate();
+      const m = new Date(e).getMonth() + 1 > 9 ? new Date(e).getMonth() + 1 : "0" + (new Date(e).getMonth() + 1);
+      const d = new Date(e).getDate() > 9 ? new Date(e).getDate() : "0" + new Date(e).getDate();
       return y.toString() + m.toString() + d.toString();
     },
 
@@ -1964,9 +1968,9 @@ var script$1 = {
       var m = Math.floor(result / 60 % 60);
       var s = Math.floor(result % 60);
       h = h >= 24 ? h - 24 : h;
-      h = h >= 10 ? h : '0' + h;
-      m = m >= 10 ? m : '0' + m;
-      s = s >= 10 ? s : '0' + s; // eslint-disable-next-line no-return-assign
+      h = h >= 10 ? h : "0" + h;
+      m = m >= 10 ? m : "0" + m;
+      s = s >= 10 ? s : "0" + s; // eslint-disable-next-line no-return-assign
 
       return result = h.toString() + m.toString() + s.toString();
     },
@@ -1984,7 +1988,7 @@ var script$1 = {
           const {
             headers
           } = response;
-          setToken(headers['auth-token']);
+          setToken(headers["auth-token"]);
           resolve(response);
         }).catch(error => {
           reject(error);
@@ -2002,9 +2006,9 @@ var script$1 = {
         res = res.data;
 
         if (res.returnState.stateCode === 0) {
-          this.$set(this.videoList[index], 'speed', speed);
+          this.$set(this.videoList[index], "speed", speed);
         } else {
-          this.$set(this.videoList[index], 'speed', 1);
+          this.$set(this.videoList[index], "speed", 1);
         }
 
         video.playbackRate = this.videoList[index].speed;
@@ -2012,7 +2016,7 @@ var script$1 = {
     },
 
     playReplayStop(playIndex, item, index) {
-      this.videoList[index].replaySrc = '';
+      this.videoList[index].replaySrc = "";
     }
 
   }
@@ -2067,6 +2071,9 @@ var __vue_render__$1 = function () {
       attrs: {
         "span": item.span
       }
+    }, [_c('div', {
+      staticClass: "video-box",
+      class: _vm.videoOption.bigness === 'small' ? 'small-video-wrap' : ''
     }, [_c('div', {
       directives: [{
         name: "loading",
@@ -2310,7 +2317,7 @@ var __vue_render__$1 = function () {
           return _vm.changeSpeed(item, index, 1);
         }
       }
-    }, [_vm._v("\n              1.0X\n            ")]), _vm._v(" "), _c('span', {
+    }, [_vm._v("\n                1.0X\n              ")]), _vm._v(" "), _c('span', {
       staticClass: "speed",
       class: item.speed === 2 ? 'active' : '',
       on: {
@@ -2318,7 +2325,7 @@ var __vue_render__$1 = function () {
           return _vm.changeSpeed(item, index, 2);
         }
       }
-    }, [_vm._v("\n              2.0X\n            ")]), _vm._v(" "), _c('span', {
+    }, [_vm._v("\n                2.0X\n              ")]), _vm._v(" "), _c('span', {
       staticClass: "speed",
       class: item.speed === 4 ? 'active' : '',
       on: {
@@ -2326,7 +2333,7 @@ var __vue_render__$1 = function () {
           return _vm.changeSpeed(item, index, 4);
         }
       }
-    }, [_vm._v("\n              4.0X\n            ")])]), _vm._v(" "), _c('el-date-picker', {
+    }, [_vm._v("\n                4.0X\n              ")])]), _vm._v(" "), _c('el-date-picker', {
       directives: [{
         name: "show",
         rawName: "v-show",
@@ -2374,7 +2381,7 @@ var __vue_render__$1 = function () {
           return _vm.changeLine($event, item, index);
         }
       }
-    }) : _vm._e()], 1)]);
+    }) : _vm._e()], 1)])]);
   }), 1)], 1);
 };
 
@@ -2383,8 +2390,8 @@ var __vue_staticRenderFns__$1 = [];
 
 const __vue_inject_styles__$1 = function (inject) {
   if (!inject) return;
-  inject("data-v-359f081e_0", {
-    source: ".videotemplate{user-select:none;height:100%;width:100%}.videotemplate .el-row{width:100%;height:100%;padding:0 5px!important;margin:0!important}.videotemplate .el-col{padding:0!important;height:100%}.videotemplate .fullScreen{position:fixed;top:0;left:0;z-index:9999;transition:all .5s}.videotemplate .videowrap{position:relative;transition:all .5s}.videotemplate .el-col-12,.videotemplate .el-col-6{height:50%}.videotemplate .el-col-8{height:33.3333%}.videotemplate .fullScreen,.videotemplate .videowrap{border:2px solid #000;height:100%;width:100%;background:#1e2427}.videotemplate .fullScreen .videoTitle,.videotemplate .videowrap .videoTitle{position:absolute;z-index:5;color:#fff;top:0;left:0}.videotemplate .fullScreen .water,.videotemplate .videowrap .water{user-select:none;position:absolute;color:#fff;opacity:.6;z-index:99;top:15%;left:10%;text-align:center;line-height:30px;font-size:30px;font-weight:600}.videotemplate .fullScreen .water3,.videotemplate .videowrap .water3{top:75%;left:70%}.videotemplate .fullScreen .water2,.videotemplate .videowrap .water2{top:45%;left:40%}.videotemplate .fullScreen video,.videotemplate .videowrap video{object-fit:fill}.videotemplate .fullScreen .control,.videotemplate .videowrap .control{display:flex;box-sizing:border-box;opacity:0;transition:opacity .5s;width:100%;height:40px;position:absolute;bottom:2px;left:2px}.videotemplate .fullScreen .control button,.videotemplate .videowrap .control button{background:0 0;border:none;padding:0}.videotemplate .fullScreen .control .play-speed,.videotemplate .videowrap .control .play-speed{width:130px;height:40px;border-radius:10px;background:rgba(0,0,0,.5);color:#fff;bottom:0}.videotemplate .fullScreen .control .play-speed:hover,.videotemplate .videowrap .control .play-speed:hover{color:#fff}.videotemplate .fullScreen .control .play-speed .speed,.videotemplate .videowrap .control .play-speed .speed{width:50px;height:100%;text-align:center;cursor:pointer;padding:0 5px}.videotemplate .fullScreen .control .play-speed .speed:hover,.videotemplate .videowrap .control .play-speed .speed:hover{color:#3075ff}.videotemplate .fullScreen .control .play-speed .speed.active,.videotemplate .videowrap .control .play-speed .speed.active{color:#3075ff}.videotemplate .fullScreen .control .el-date-editor,.videotemplate .videowrap .control .el-date-editor{height:40px!important;position:absolute;background:rgba(0,0,0,.5);border-radius:10px;right:5px;bottom:0;width:150px}.videotemplate .fullScreen .control .el-date-editor .el-input__inner,.videotemplate .videowrap .control .el-date-editor .el-input__inner{height:40px!important;background:rgba(0,0,0,.5);border:none}.videotemplate .fullScreen .control .el-date-editor .el-input__icon,.videotemplate .videowrap .control .el-date-editor .el-input__icon{line-height:40px}.videotemplate .fullScreen:hover .closrControl,.videotemplate .fullScreen:hover .control,.videotemplate .videowrap:hover .closrControl,.videotemplate .videowrap:hover .control{cursor:pointer;opacity:1;transition:opacity .5s}.videotemplate .tcl{position:absolute;opacity:0;color:red;top:10px;font-weight:600;left:10px;font-size:20px;animation:flash 1s infinite}@keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.videotemplate .closrControl{position:absolute;opacity:0;top:10px;right:10px;z-index:999999999}.videotemplate .closrControl button{background:0 0;border:none;padding:0}.videotemplate .error{position:absolute;width:100%;height:100%;background:rgba(0,0,0,.8);top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column}.videotemplate .error>span{padding:20px 0;font-size:20px;color:red}.videotemplate .timeline canvas{width:100%}.videotemplate .show{display:block}.videotemplate .hide{display:none}.videotemplate .animate__animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.videotemplate .animate__shakeX{-webkit-animation-name:shakeX;animation-name:shakeX}@-webkit-keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}",
+  inject("data-v-feb2671e_0", {
+    source: ".videotemplate{user-select:none;height:100%;width:100%}.videotemplate .el-row{width:100%;height:100%;padding:0 5px!important;margin:0!important}.videotemplate .el-col{padding:0!important;height:100%}.videotemplate .fullScreen{position:fixed;top:0;left:0;z-index:9999;transition:all .5s}.videotemplate .videowrap{position:relative;transition:all .5s}.videotemplate .el-col-12,.videotemplate .el-col-6{height:50%}.videotemplate .el-col-8{height:33.3333%}.videotemplate .fullScreen,.videotemplate .videowrap{border:2px solid #000;height:100%;width:100%;background:#1e2427}.videotemplate .fullScreen .videoTitle,.videotemplate .videowrap .videoTitle{position:absolute;z-index:5;color:#fff;top:0;left:0}.videotemplate .fullScreen .water,.videotemplate .videowrap .water{user-select:none;position:absolute;color:#fff;opacity:.6;z-index:99;top:15%;left:10%;text-align:center;line-height:30px;font-size:30px;font-weight:600}.videotemplate .fullScreen .water3,.videotemplate .videowrap .water3{top:75%;left:70%}.videotemplate .fullScreen .water2,.videotemplate .videowrap .water2{top:45%;left:40%}.videotemplate .fullScreen video,.videotemplate .videowrap video{object-fit:fill}.videotemplate .fullScreen .control,.videotemplate .videowrap .control{display:flex;box-sizing:border-box;opacity:0;transition:opacity .5s;width:100%;height:40px;position:absolute;bottom:2px;left:2px}.videotemplate .fullScreen .control button,.videotemplate .videowrap .control button{background:0 0;border:none;padding:0}.videotemplate .fullScreen .control .play-speed,.videotemplate .videowrap .control .play-speed{width:130px;height:40px;border-radius:10px;background:rgba(0,0,0,.5);color:#fff;bottom:0}.videotemplate .fullScreen .control .play-speed:hover,.videotemplate .videowrap .control .play-speed:hover{color:#fff}.videotemplate .fullScreen .control .play-speed .speed,.videotemplate .videowrap .control .play-speed .speed{width:50px;height:100%;text-align:center;cursor:pointer;padding:0 5px}.videotemplate .fullScreen .control .play-speed .speed:hover,.videotemplate .videowrap .control .play-speed .speed:hover{color:#3075ff}.videotemplate .fullScreen .control .play-speed .speed.active,.videotemplate .videowrap .control .play-speed .speed.active{color:#3075ff}.videotemplate .fullScreen .control .el-date-editor,.videotemplate .videowrap .control .el-date-editor{height:40px!important;position:absolute;background:rgba(0,0,0,.5);border-radius:10px;right:5px;bottom:0;width:150px}.videotemplate .fullScreen .control .el-date-editor .el-input__inner,.videotemplate .videowrap .control .el-date-editor .el-input__inner{height:40px!important;background:rgba(0,0,0,.5);border:none}.videotemplate .fullScreen .control .el-date-editor .el-input__icon,.videotemplate .videowrap .control .el-date-editor .el-input__icon{line-height:40px}.videotemplate .fullScreen:hover .closrControl,.videotemplate .fullScreen:hover .control,.videotemplate .videowrap:hover .closrControl,.videotemplate .videowrap:hover .control{cursor:pointer;opacity:1;transition:opacity .5s}.videotemplate .tcl{position:absolute;opacity:0;color:red;top:10px;font-weight:600;left:10px;font-size:20px;animation:flash 1s infinite}@keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.videotemplate .closrControl{position:absolute;opacity:0;top:10px;right:10px;z-index:999999999}.videotemplate .closrControl button{background:0 0;border:none;padding:0}.videotemplate .error{position:absolute;width:100%;height:100%;background:rgba(0,0,0,.8);top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column}.videotemplate .error>span{padding:20px 0;font-size:20px;color:red}.videotemplate .timeline canvas{width:100%}.videotemplate .show{display:block}.videotemplate .hide{display:none}.videotemplate .animate__animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.videotemplate .animate__shakeX{-webkit-animation-name:shakeX;animation-name:shakeX}@-webkit-keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.videotemplate .video-box{width:100%;height:100%}.videotemplate .small-video-wrap{width:100%;height:100%}.videotemplate .small-video-wrap .videoTitle{font-size:12px}.videotemplate .small-video-wrap .water{font-size:14px}.videotemplate .small-video-wrap .water2{top:40%;left:35%}.videotemplate .small-video-wrap .water3{top:65%;left:60%}.videotemplate .small-video-wrap .closrControl{top:4px;right:4px}.videotemplate .small-video-wrap .closrControl .el-button,.videotemplate .small-video-wrap .closrControl img,.videotemplate .small-video-wrap .control .el-button,.videotemplate .small-video-wrap .control img{width:24px;height:24px}.videotemplate .small-video-wrap .control{height:24px;left:4px}.videotemplate .small-video-wrap .error>span{font-size:14px}",
     map: undefined,
     media: undefined
   });

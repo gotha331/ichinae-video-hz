@@ -760,7 +760,7 @@ var __vue_render__ = function __vue_render__() {
     attrs: {
       "id": 'wrap' + _vm.canvasid
     }
-  }, [_vm._ssrNode("<canvas" + _vm._ssrAttr("id", _vm.canvasid) + " width=\"100%\" height=\"100\" ondragstart=\"return false;\" style=\"cursor: pointer;border:1px solid #2b2f33;background-color: #2b2f33;\" data-v-2303b662></canvas>")]);
+  }, [_vm._ssrNode("<canvas" + _vm._ssrAttr("id", _vm.canvasid) + " width=\"100%\" height=\"100\" ondragstart=\"return false;\" style=\"cursor: pointer;border:1px solid #2b2f33;background-color: #2b2f33;\" data-v-e48ccfb2></canvas>")]);
 };
 
 var __vue_staticRenderFns__ = [];
@@ -768,8 +768,8 @@ var __vue_staticRenderFns__ = [];
 
 var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-2303b662_0", {
-    source: ".canvas[data-v-2303b662]{width:100%}.btn .play-speed[data-v-2303b662]{width:167px;height:25px;border-radius:5px;background:rgba(0,0,0,.5);float:right;display:flex;color:#fff;justify-content:space-around;align-content:center;line-height:25px}.btn .play-speed>div[data-v-2303b662]{width:50px;height:100%;text-align:center;cursor:pointer}.btn .play-speed>div.active[data-v-2303b662]{color:#3075ff}.btn[data-v-2303b662]  .el-date-editor{float:right;height:25px!important;width:150px}.btn[data-v-2303b662]  .el-date-editor .el-input__inner{height:25px!important}.btn[data-v-2303b662]  .el-date-editor .el-input__icon{line-height:25px}",
+  inject("data-v-e48ccfb2_0", {
+    source: ".canvas[data-v-e48ccfb2]{width:100%}.btn .play-speed[data-v-e48ccfb2]{width:167px;height:25px;border-radius:5px;background:rgba(0,0,0,.5);float:right;display:flex;color:#fff;justify-content:space-around;align-content:center;line-height:25px}.btn .play-speed>div[data-v-e48ccfb2]{width:50px;height:100%;text-align:center;cursor:pointer}.btn .play-speed>div.active[data-v-e48ccfb2]{color:#3075ff}.btn[data-v-e48ccfb2]  .el-date-editor{float:right;height:25px!important;width:150px}.btn[data-v-e48ccfb2]  .el-date-editor .el-input__inner{height:25px!important}.btn[data-v-e48ccfb2]  .el-date-editor .el-input__icon{line-height:25px}",
     map: undefined,
     media: undefined
   });
@@ -777,10 +777,10 @@ var __vue_inject_styles__ = function __vue_inject_styles__(inject) {
 /* scoped */
 
 
-var __vue_scope_id__ = "data-v-2303b662";
+var __vue_scope_id__ = "data-v-e48ccfb2";
 /* module identifier */
 
-var __vue_module_identifier__ = "data-v-2303b662";
+var __vue_module_identifier__ = "data-v-e48ccfb2";
 /* functional template */
 
 var __vue_is_functional_template__ = false;
@@ -1163,7 +1163,7 @@ var vmsService = {
   }
 };Vue__default['default'].use(ElementUI__default['default']);
 var script$1 = {
-  name: 'ichinaeVideo',
+  name: "ichinaeVideo",
   components: {
     timeline: __vue_component__
   },
@@ -1187,7 +1187,7 @@ var script$1 = {
       activeIndex: null,
       videoList: [],
       // 视频dom
-      imgsrc: '',
+      imgsrc: "",
       // 截图
       startTime: new Date(new Date().getTime() - 24 * 60 * 60 * 1000),
       pickerOptions: {
@@ -1197,68 +1197,68 @@ var script$1 = {
       },
       ipcLinkInfo: {},
       serverMappingTable: [{
-        serverIP: '20.255.7.230',
-        mappingIP: '172.25.104.4'
+        serverIP: "20.255.7.230",
+        mappingIP: "172.25.104.4"
       }, {
-        serverIP: '20.255.7.231',
-        mappingIP: '172.25.104.5'
+        serverIP: "20.255.7.231",
+        mappingIP: "172.25.104.5"
       }, {
-        serverIP: '20.255.7.232',
-        mappingIP: '172.25.104.6'
+        serverIP: "20.255.7.232",
+        mappingIP: "172.25.104.6"
       }, {
-        serverIP: '20.255.7.233',
-        mappingIP: '172.25.104.7'
+        serverIP: "20.255.7.233",
+        mappingIP: "172.25.104.7"
       }, {
-        serverIP: '20.255.7.234',
-        mappingIP: '172.25.104.8'
+        serverIP: "20.255.7.234",
+        mappingIP: "172.25.104.8"
       }, {
-        serverIP: '20.255.7.235',
-        mappingIP: '172.25.104.9'
+        serverIP: "20.255.7.235",
+        mappingIP: "172.25.104.9"
       }, {
-        serverIP: '20.255.7.236',
-        mappingIP: '172.25.104.10'
+        serverIP: "20.255.7.236",
+        mappingIP: "172.25.104.10"
       }, {
-        serverIP: '20.255.7.237',
-        mappingIP: '172.25.104.11'
+        serverIP: "20.255.7.237",
+        mappingIP: "172.25.104.11"
       }, {
-        serverIP: '20.255.7.238',
-        mappingIP: '172.25.104.12'
+        serverIP: "20.255.7.238",
+        mappingIP: "172.25.104.12"
       }, {
-        serverIP: '20.255.7.239',
-        mappingIP: '172.25.104.13'
+        serverIP: "20.255.7.239",
+        mappingIP: "172.25.104.13"
       }, {
-        serverIP: '20.255.7.240',
-        mappingIP: '172.25.104.2'
+        serverIP: "20.255.7.240",
+        mappingIP: "172.25.104.2"
       }, {
-        serverIP: '20.255.7.241',
-        mappingIP: '172.25.104.15'
+        serverIP: "20.255.7.241",
+        mappingIP: "172.25.104.15"
       }, {
-        serverIP: '20.255.7.242',
-        mappingIP: '172.25.104.3'
+        serverIP: "20.255.7.242",
+        mappingIP: "172.25.104.3"
       }, {
-        serverIP: '20.255.7.243',
-        mappingIP: '172.25.104.17'
+        serverIP: "20.255.7.243",
+        mappingIP: "172.25.104.17"
       }, {
-        serverIP: '20.255.7.244',
-        mappingIP: '172.25.104.18'
+        serverIP: "20.255.7.244",
+        mappingIP: "172.25.104.18"
       }, {
-        serverIP: '20.255.7.245',
-        mappingIP: '172.25.104.19'
+        serverIP: "20.255.7.245",
+        mappingIP: "172.25.104.19"
       }, {
-        serverIP: '20.255.7.246',
-        mappingIP: '172.25.104.20'
+        serverIP: "20.255.7.246",
+        mappingIP: "172.25.104.20"
       }, {
-        serverIP: '20.255.7.247',
-        mappingIP: '172.25.104.21'
+        serverIP: "20.255.7.247",
+        mappingIP: "172.25.104.21"
       }, {
-        serverIP: '20.255.7.248',
-        mappingIP: '172.25.104.22'
+        serverIP: "20.255.7.248",
+        mappingIP: "172.25.104.22"
       }, {
-        serverIP: '20.255.7.249',
-        mappingIP: '172.25.104.14'
+        serverIP: "20.255.7.249",
+        mappingIP: "172.25.104.14"
       }, {
-        serverIP: '20.255.7.250',
-        mappingIP: '172.25.104.16'
+        serverIP: "20.255.7.250",
+        mappingIP: "172.25.104.16"
       }]
     };
   },
@@ -1288,11 +1288,11 @@ var script$1 = {
       this.dbclick(0);
     }
 
-    document.addEventListener('keydown', function (event) {
+    document.addEventListener("keydown", function (event) {
       var keyCode = event.keyCode;
 
       if (keyCode === 27) {
-        _this.fullScreen(_this.activeIndex, 'esc');
+        _this.fullScreen(_this.activeIndex, "esc");
       } // 空格播放暂停
 
       /* if (keyCode === 32) {
@@ -1311,7 +1311,7 @@ var script$1 = {
   methods: {
     pickerchange: function pickerchange(e, item, index) {
       e = new Date(e).getTime() + 12 * 3600 * 1000;
-      this.changeLine(e, item, index, 'picker');
+      this.changeLine(e, item, index, "picker");
     },
     destroyAll: function destroyAll() {
       var _this2 = this;
@@ -1322,9 +1322,9 @@ var script$1 = {
     },
     // 下载截图
     download: function download(bolb, item) {
-      var a = document.createElement('a');
+      var a = document.createElement("a");
       var imgblob = new Blob([bolb], {
-        type: 'application/octet-stream'
+        type: "application/octet-stream"
       });
       a.href = URL.createObjectURL(imgblob);
       var filename = "".concat(item.name).concat(new Date().toLocaleString(), ".jpg");
@@ -1335,13 +1335,13 @@ var script$1 = {
     capture: function capture(index, item) {
       var _this3 = this;
 
-      if (!item['canPlay']) {
-        this.$message.info('暂无视频播放');
+      if (!item["canPlay"]) {
+        this.$message.info("暂无视频播放");
         return;
       } // eslint-disable-next-line no-undef
 
 
-      $poster.videoScreenshot(document.getElementById('videoElement' + index), 0, /*#__PURE__*/function () {
+      $poster.videoScreenshot(document.getElementById("videoElement" + index), 0, /*#__PURE__*/function () {
         var _ref = _asyncToGenerator( /*#__PURE__*/regeneratorRuntime.mark(function _callee(e, res) {
           var img, canvas, blob, newImage;
           return regeneratorRuntime.wrap(function _callee$(_context) {
@@ -1384,10 +1384,10 @@ var script$1 = {
     blobToImg: function blobToImg(blob) {
       return new Promise(function (resolve) {
         var reader = new FileReader();
-        reader.addEventListener('load', function () {
+        reader.addEventListener("load", function () {
           var img = new Image();
           img.src = reader.result;
-          img.addEventListener('load', function () {
+          img.addEventListener("load", function () {
             return resolve(img);
           });
         });
@@ -1395,22 +1395,22 @@ var script$1 = {
       });
     },
     imgToCanvas: function imgToCanvas(img) {
-      var canvas = document.createElement('canvas');
+      var canvas = document.createElement("canvas");
       canvas.width = img.width;
       canvas.height = img.height;
-      var ctx = canvas.getContext('2d');
+      var ctx = canvas.getContext("2d");
       ctx.drawImage(img, 0, 0);
       return canvas;
     },
     // 水印
     watermark: function watermark(canvas, text) {
       return new Promise(function (resolve) {
-        var ctx = canvas.getContext('2d'); //  ctx.fillStyle = 'rgb(255, 235, 59, .5)'
+        var ctx = canvas.getContext("2d"); //  ctx.fillStyle = 'rgb(255, 235, 59, .5)'
         // ctx.fillRect(50, 20, 40, 30)
 
-        ctx.fillStyle = 'rgb(255, 255, 255, .6)';
-        ctx.font = 'bold 45px 微软雅黑';
-        ctx.textAlign = 'left';
+        ctx.fillStyle = "rgb(255, 255, 255, .6)";
+        ctx.font = "bold 45px 微软雅黑";
+        ctx.textAlign = "left";
         ctx.fillText(text, canvas.width * 0.15, canvas.height * 0.1);
         ctx.fillText(text, canvas.width * 0.45, canvas.height * 0.4);
         ctx.fillText(text, canvas.width * 0.75, canvas.height * 0.7);
@@ -1435,11 +1435,11 @@ var script$1 = {
     loadvideo: function loadvideo(index, item, type) {
       var _this5 = this;
 
-      this.$set(this.videoList[index], 'loading', true);
-      this.$set(this.videoList[index], 'error', false);
+      this.$set(this.videoList[index], "loading", true);
+      this.$set(this.videoList[index], "error", false);
       var videoElement = document.getElementById(item.id);
       this.videoList[index].flvPlayer = flvjs.createPlayer({
-        type: 'flv',
+        type: "flv",
         isLive: true,
         url: type ? item.replaySrc : item.src
       }, {
@@ -1450,9 +1450,9 @@ var script$1 = {
       this.videoList[index].flvPlayer.attachMediaElement(videoElement);
       this.videoList[index].flvPlayer.load();
       this.videoList[index].flvPlayer.on(flvjs.Events.ERROR, function (errorType, errorDetail, errorInfo) {
-        console.error('errorType:', errorType);
-        console.error('errorDetail:', errorDetail);
-        console.error('errorInfo:', errorInfo); // 如果视频播放出错就销毁player，用当前的url重新创建一个
+        console.error("errorType:", errorType);
+        console.error("errorDetail:", errorDetail);
+        console.error("errorInfo:", errorInfo); // 如果视频播放出错就销毁player，用当前的url重新创建一个
 
         if (_this5.videoList[index].flvPlayer) {
           _this5.videoList[index].flvPlayer.destroy();
@@ -1462,40 +1462,40 @@ var script$1 = {
           }
 
           if (errorInfo.code < 2) {
-            _this5.$set(_this5.videoList[index], 'canPlay', false);
+            _this5.$set(_this5.videoList[index], "canPlay", false);
 
-            _this5.$set(_this5.videoList[index], 'loading', false);
+            _this5.$set(_this5.videoList[index], "loading", false);
 
-            _this5.$set(_this5.videoList[index], 'error', true);
+            _this5.$set(_this5.videoList[index], "error", true);
 
-            _this5.$set(_this5.videoList[index], 'startPlayTime', false);
+            _this5.$set(_this5.videoList[index], "startPlayTime", false);
 
             if (!_this5.videoList[index].live) {
-              _this5.$message.error('视频加载失败');
+              _this5.$message.error("视频加载失败");
             } else {
-              _this5.$message.error('回放录像加载失败');
+              _this5.$message.error("回放录像加载失败");
 
-              _this5.$set(_this5.videoList[index], 'error', false);
+              _this5.$set(_this5.videoList[index], "error", false);
 
-              _this5.$set(_this5.videoList[index], 'replaySrc', '');
+              _this5.$set(_this5.videoList[index], "replaySrc", "");
             }
           }
         }
       });
-      this.eventTester(index, videoElement, 'progress');
-      this.eventTester(index, videoElement, 'loadeddata');
-      this.eventTester(index, videoElement, 'waiting'); // this.eventTester(index, videoElement, 'error')
+      this.eventTester(index, videoElement, "progress");
+      this.eventTester(index, videoElement, "loadeddata");
+      this.eventTester(index, videoElement, "waiting"); // this.eventTester(index, videoElement, 'error')
       // this.eventTester(index, videoElement, 'stalled')
     },
     // play pause
     toggle: function toggle(index) {
-      if (!this.videoList[index]['canPlay']) {
-        this.$message.info('暂无视频播放');
+      if (!this.videoList[index]["canPlay"]) {
+        this.$message.info("暂无视频播放");
         return;
       }
 
-      this.$set(this.videoList[index], 'playState', !this.videoList[index].playState);
-      this.$set(this.videoList[index], 'startPlayTime', this.videoList[index].playState);
+      this.$set(this.videoList[index], "playState", !this.videoList[index].playState);
+      this.$set(this.videoList[index], "startPlayTime", this.videoList[index].playState);
 
       if (this.videoList[index].playState) {
         this.videoList[index].flvPlayer.play();
@@ -1514,7 +1514,7 @@ var script$1 = {
 
       for (var index = 0; index < num; index++) {
         this.videoList.push({
-          id: 'videoElement' + index,
+          id: "videoElement" + index,
           show: true,
           // 是否展示 4<=>1
           isChecked: false,
@@ -1570,14 +1570,14 @@ var script$1 = {
                 return _context2.abrupt("return");
 
               case 6:
-                _this6.$set(_this6.videoList[_this6.activeIndex], 'loading', true);
+                _this6.$set(_this6.videoList[_this6.activeIndex], "loading", true);
 
                 _this6.commontPushVideo(_this6.activeIndex, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo);
 
                 if (isReolay) {
                   _this6.toggleReplay(_this6.activeIndex);
 
-                  _this6.changeLine(replayTime, _this6.videoList[_this6.activeIndex], _this6.activeIndex, 'picker');
+                  _this6.changeLine(replayTime, _this6.videoList[_this6.activeIndex], _this6.activeIndex, "picker");
                 }
 
                 _context2.next = 31;
@@ -1586,7 +1586,7 @@ var script$1 = {
               case 11:
                 // 4屏播放替换push url，末尾替换url
                 index = _this6.videoList.findIndex(function (e) {
-                  return JSON.stringify(e.flvPlayer) === '{}' || e.flvPlayer === undefined;
+                  return JSON.stringify(e.flvPlayer) === "{}" || e.flvPlayer === undefined;
                 });
 
                 if (!(index > -1)) {
@@ -1608,14 +1608,14 @@ var script$1 = {
                 return _context2.abrupt("return");
 
               case 18:
-                _this6.$set(_this6.videoList[index], 'loading', true);
+                _this6.$set(_this6.videoList[index], "loading", true);
 
                 _this6.commontPushVideo(index, _vmsInfo.url, name, id, _vmsInfo.ipcLinkInfo);
 
                 if (isReolay) {
                   _this6.toggleReplay(index);
 
-                  _this6.changeLine(replayTime, _this6.videoList[index], index, 'picker');
+                  _this6.changeLine(replayTime, _this6.videoList[index], index, "picker");
                 }
 
               case 21:
@@ -1639,14 +1639,14 @@ var script$1 = {
                 return _context2.abrupt("return");
 
               case 28:
-                _this6.$set(_this6.videoList[itemLength], 'loading', true);
+                _this6.$set(_this6.videoList[itemLength], "loading", true);
 
                 _this6.commontPushVideo(itemLength, _vmsInfo2.url, name, id, _vmsInfo2.ipcLinkInfo);
 
                 if (isReolay) {
                   _this6.toggleReplay(itemLength);
 
-                  _this6.changeLine(replayTime, _this6.videoList[itemLength], itemLength, 'picker');
+                  _this6.changeLine(replayTime, _this6.videoList[itemLength], itemLength, "picker");
                 }
 
               case 31:
@@ -1676,7 +1676,7 @@ var script$1 = {
                 _this7.videoList = [];
 
                 _this7.videoList.push({
-                  id: 'videoElement' + index,
+                  id: "videoElement" + index,
                   show: true,
                   // 是否展示 4<=>1
                   isChecked: false,
@@ -1722,14 +1722,14 @@ var script$1 = {
                 return _context3.abrupt("return");
 
               case 9:
-                _this7.$set(_this7.videoList[_this7.activeIndex], 'loading', true);
+                _this7.$set(_this7.videoList[_this7.activeIndex], "loading", true);
 
                 _this7.commontPushVideo(_this7.activeIndex, vmsInfo.url, name, id, vmsInfo.ipcLinkInfo);
 
                 if (isReolay) {
                   _this7.toggleReplay(_this7.activeIndex);
 
-                  _this7.changeLine(replayTime, _this7.videoList[_this7.activeIndex], _this7.activeIndex, 'picker');
+                  _this7.changeLine(replayTime, _this7.videoList[_this7.activeIndex], _this7.activeIndex, "picker");
                 }
 
               case 12:
@@ -1760,7 +1760,7 @@ var script$1 = {
                 }).then(function (res) {
                   var serverInfo = {
                     ipcLinkInfo: {
-                      serverIP: ''
+                      serverIP: ""
                     }
                   };
 
@@ -1791,7 +1791,7 @@ var script$1 = {
                   break;
                 }
 
-                _this8.$message.error('获取视频地址失败');
+                _this8.$message.error("获取视频地址失败");
 
                 return _context4.abrupt("return");
 
@@ -1808,10 +1808,10 @@ var script$1 = {
                   break;
                 }
 
-                _this8.$set(_this8.videoList[isplay], 'isChecked', true);
+                _this8.$set(_this8.videoList[isplay], "isChecked", true);
 
                 setTimeout(function () {
-                  _this8.$set(_this8.videoList[isplay], 'isChecked', false);
+                  _this8.$set(_this8.videoList[isplay], "isChecked", false);
                 }, 500);
                 return _context4.abrupt("return");
 
@@ -1831,10 +1831,10 @@ var script$1 = {
     },
     commontPushVideo: function commontPushVideo(index, url, name, id, ipcLinkInfo) {
       this.destroy(index);
-      this.$set(this.videoList[index], 'src', url);
-      this.$set(this.videoList[index], 'name', name);
-      this.$set(this.videoList[index], 'videoId', id);
-      this.$set(this.videoList[index], 'serverIP', ipcLinkInfo.serverIP);
+      this.$set(this.videoList[index], "src", url);
+      this.$set(this.videoList[index], "name", name);
+      this.$set(this.videoList[index], "videoId", id);
+      this.$set(this.videoList[index], "serverIP", ipcLinkInfo.serverIP);
       this.loadvideo(index, this.videoList[index]);
     },
     // 销毁
@@ -1843,14 +1843,14 @@ var script$1 = {
         this.videoList[index].flvPlayer.destroy();
       }
 
-      this.fullScreen(index, 'esc');
-      this.$delete(this.videoList[index], 'flvPlayer');
-      this.$set(this.videoList[index], 'loading', false);
-      this.$set(this.videoList[index], 'error', false);
-      this.$set(this.videoList[index], 'live', false);
-      this.$set(this.videoList[index], 'src', '');
-      this.$set(this.videoList[index], 'replaySrc', '');
-      this.$set(this.videoList[index], 'name', '');
+      this.fullScreen(index, "esc");
+      this.$delete(this.videoList[index], "flvPlayer");
+      this.$set(this.videoList[index], "loading", false);
+      this.$set(this.videoList[index], "error", false);
+      this.$set(this.videoList[index], "live", false);
+      this.$set(this.videoList[index], "src", "");
+      this.$set(this.videoList[index], "replaySrc", "");
+      this.$set(this.videoList[index], "name", "");
     },
     formatSpam: function formatSpam(num) {
       switch (num) {
@@ -1886,10 +1886,10 @@ var script$1 = {
       this.timeKey = new Date().getTime();
 
       if (key) {
-        this.$set(this.videoList[index], 'fullScreen', false);
+        this.$set(this.videoList[index], "fullScreen", false);
       } else {
         this.activeIndex = index;
-        this.$set(this.videoList[index], 'fullScreen', !this.videoList[index].fullScreen);
+        this.$set(this.videoList[index], "fullScreen", !this.videoList[index].fullScreen);
       }
     },
     // 4 <=> 1 屏切换
@@ -1904,21 +1904,21 @@ var script$1 = {
       this.activeIndex = index;
 
       if (this.videoList[index].span !== 24) {
-        this.$set(this.videoList[index], 'span', 24);
-        this.$set(this.videoList[index], 'show', true);
+        this.$set(this.videoList[index], "span", 24);
+        this.$set(this.videoList[index], "show", true);
 
         for (var i = this.videoList.length - 1; i >= 0; i--) {
           var e = this.videoList[i];
 
           if (e.flvPlayer && e.flvPlayer._receivedCanPlay && i !== index) {
             e.flvPlayer.destroy();
-            this.$delete(this.videoList[i], 'flvPlayer');
+            this.$delete(this.videoList[i], "flvPlayer");
           }
 
           if (i !== index) {
             this.destroy(i);
-            this.$set(this.videoList[i], 'show', false);
-            this.$set(this.videoList[i], 'src', '');
+            this.$set(this.videoList[i], "show", false);
+            this.$set(this.videoList[i], "src", "");
           }
         }
       } else if (this.videoList[index].span === 24) {
@@ -1926,9 +1926,9 @@ var script$1 = {
           return;
         }
 
-        this.$set(this.videoList[index], 'span', this.formatSpam(this.videoOption.size));
+        this.$set(this.videoList[index], "span", this.formatSpam(this.videoOption.size));
         this.videoList.forEach(function (e, index) {
-          _this9.$set(_this9.videoList[index], 'show', true);
+          _this9.$set(_this9.videoList[index], "show", true);
         });
       }
     },
@@ -1936,20 +1936,20 @@ var script$1 = {
       var _this10 = this;
 
       Media.addEventListener(e, function () {
-        if (e === 'loadeddata') {
+        if (e === "loadeddata") {
           // console.log(e + ':' + Media.readyState)
-          _this10.$set(_this10.videoList[index], 'loading', false);
+          _this10.$set(_this10.videoList[index], "loading", false);
 
           _this10.changeSpeed(_this10.videoList[index], index, _this10.videoList[index].speed);
 
-          _this10.$set(_this10.videoList[index], 'startPlayTime', true);
+          _this10.$set(_this10.videoList[index], "startPlayTime", true);
 
-          _this10.$set(_this10.videoList[index], 'canPlay', true);
+          _this10.$set(_this10.videoList[index], "canPlay", true);
 
-          _this10.$set(_this10.videoList[index], 'playState', true);
+          _this10.$set(_this10.videoList[index], "playState", true);
         }
 
-        if (e === 'progress') {
+        if (e === "progress") {
           // 获取当前播放时间
           var curr = Media.currentTime; // 直播流缓存的最新帧
 
@@ -1964,12 +1964,12 @@ var script$1 = {
     // 开始录屏
     mediaRecording: function mediaRecording(index, item) {
       var canvas = document.getElementById(item.id);
-      this.$set(this.videoList[index], 'mediaRecord', true);
+      this.$set(this.videoList[index], "mediaRecord", true);
       item.allChunks = [];
       var stream2 = canvas.captureStream(60); // 60 FPS recording
 
       item.recorder = new MediaRecorder(stream2, {
-        mimeType: 'video/webm;codecs=vp9'
+        mimeType: "video/webm;codecs=vp9"
       });
 
       item.recorder.ondataavailable = function (e) {
@@ -1980,10 +1980,10 @@ var script$1 = {
     },
     // 结束录屏
     stopAndblobDownload: function stopAndblobDownload(index, item) {
-      this.$set(this.videoList[index], 'mediaRecord', false);
+      this.$set(this.videoList[index], "mediaRecord", false);
       item.recorder.stop();
-      var link = document.createElement('a');
-      link.style.display = 'none';
+      var link = document.createElement("a");
+      link.style.display = "none";
       var fullBlob = new Blob(item.allChunks);
       var downloadUrl = window.URL.createObjectURL(fullBlob);
       link.href = downloadUrl;
@@ -1995,23 +1995,23 @@ var script$1 = {
     // 回放 实时
     toggleReplay: function toggleReplay(index) {
       var item = this.videoList[index];
-      this.$set(this.videoList[index], 'loading', false);
+      this.$set(this.videoList[index], "loading", false);
 
       if (!item.live) {
         item.flvPlayer.destroy();
-        this.$set(this.videoList[index], 'canPlay', false);
-        this.$set(this.videoList[index], 'startPlayTime', false); // this.changeLine(new Date(new Date().getTime() - 24 * 60 * 60 * 1000), item, index, 'first')
+        this.$set(this.videoList[index], "canPlay", false);
+        this.$set(this.videoList[index], "startPlayTime", false); // this.changeLine(new Date(new Date().getTime() - 24 * 60 * 60 * 1000), item, index, 'first')
       } else {
         if (item.replaySrc) {
           item.flvPlayer.destroy();
         }
 
-        this.videoList[index].replaySrc = '';
+        this.videoList[index].replaySrc = "";
         this.loadvideo(index, item);
       } // vmsService.getRecordList
 
 
-      this.$set(this.videoList[index], 'live', !item.live);
+      this.$set(this.videoList[index], "live", !item.live);
     },
     // 回放时间线控制
     changeLine: function changeLine(e, item, index, type) {
@@ -2021,7 +2021,11 @@ var script$1 = {
         this.videoList[index].flvPlayer.destroy();
       }
 
-      var hs = new Date(new Date(e).toISOString().slice(0, 10) + ' 00:00:00').getTime();
+      if (!e) {
+        e = new Date().getTime();
+      }
+
+      var hs = new Date(new Date(e).toISOString().slice(0, 10) + " 00:00:00").getTime();
       var playtime = this.getPlayTime(e); // 选择日期触发
 
       if (type) {
@@ -2033,11 +2037,11 @@ var script$1 = {
           res = res.data;
 
           if (res.returnState) {
-            _this11.videoList[index].replaySrc = '';
+            _this11.videoList[index].replaySrc = "";
 
             _this11.$message.error("".concat(new Date(e).toJSON().slice(0, 10), "\u6CA1\u6709\u5F55\u50CF"));
 
-            _this11.$set(_this11.videoList[index], 'startPlayTime', false);
+            _this11.$set(_this11.videoList[index], "startPlayTime", false);
 
             return;
           }
@@ -2052,53 +2056,53 @@ var script$1 = {
               beginTime: beginTime,
               endTime: endTime,
               style: {
-                background: 'rgba(132, 244, 180, 0.498039)'
+                background: "rgba(132, 244, 180, 0.498039)"
               }
             });
           });
 
-          var playStart = playtime + '' + _this11.secondToDate(res.recordList[0].startTime);
+          var playStart = playtime + "" + _this11.secondToDate(res.recordList[0].startTime);
 
-          _this11.$set(_this11.videoList[index], 'playCellIndex', 0);
+          _this11.$set(_this11.videoList[index], "playCellIndex", 0);
 
           _this11.videoList[index].sid = new Date().getTime();
           _this11.videoList[index].replaySrc = "http://".concat(_this11.videoList[index].serverIP, ":8000/playback?devid=").concat(_this11.videoList[index].videoId, "&playtime=").concat(playStart, "&sid=") + _this11.videoList[index].sid;
 
-          _this11.loadvideo(index, _this11.videoList[index], 'replay');
+          _this11.loadvideo(index, _this11.videoList[index], "replay");
         });
       } else {
         // 拖动时间轴触发
         var clickTime = new Date(e).getTime();
         var isClickStart = false; // eslint-disable-next-line no-unused-vars
 
-        this.$set(this.videoList[index], 'playCellIndex', 0);
+        this.$set(this.videoList[index], "playCellIndex", 0);
         this.videoList[index].timecell.forEach(function (el, dx) {
           if (!type) {
             if (clickTime > el.beginTime && clickTime < el.endTime) {
               isClickStart = true;
 
-              _this11.$set(_this11.videoList[index], 'playCellIndex', dx);
+              _this11.$set(_this11.videoList[index], "playCellIndex", dx);
             }
           }
         });
 
         if (!isClickStart) {
-          this.videoList[index].replaySrc = '';
-          this.$message.error('当前时间段无录像');
-          this.$set(this.videoList[index], 'startPlayTime', false);
+          this.videoList[index].replaySrc = "";
+          this.$message.error("当前时间段无录像");
+          this.$set(this.videoList[index], "startPlayTime", false);
           return;
         }
 
         var mimute = clickTime - hs;
-        var playStart = playtime + '' + this.secondToDate(mimute / 1000);
+        var playStart = playtime + "" + this.secondToDate(mimute / 1000);
         this.videoList[index].replaySrc = "http://".concat(this.videoList[index].serverIP, ":8000/playback?devid=").concat(this.videoList[index].videoId, "&playtime=").concat(playStart, "&sid=") + this.videoList[index].sid;
-        this.loadvideo(index, this.videoList[index], 'replay');
+        this.loadvideo(index, this.videoList[index], "replay");
       }
     },
     getPlayTime: function getPlayTime(e) {
       var y = new Date(e).getFullYear();
-      var m = new Date(e).getMonth() + 1 > 10 ? new Date(e).getMonth() + 1 : '0' + (new Date(e).getMonth() + 1);
-      var d = new Date(e).getDate() > 10 ? new Date(e).getDate() : '0' + new Date(e).getDate();
+      var m = new Date(e).getMonth() + 1 > 9 ? new Date(e).getMonth() + 1 : "0" + (new Date(e).getMonth() + 1);
+      var d = new Date(e).getDate() > 9 ? new Date(e).getDate() : "0" + new Date(e).getDate();
       return y.toString() + m.toString() + d.toString();
     },
     secondToDate: function secondToDate(result) {
@@ -2106,9 +2110,9 @@ var script$1 = {
       var m = Math.floor(result / 60 % 60);
       var s = Math.floor(result % 60);
       h = h >= 24 ? h - 24 : h;
-      h = h >= 10 ? h : '0' + h;
-      m = m >= 10 ? m : '0' + m;
-      s = s >= 10 ? s : '0' + s; // eslint-disable-next-line no-return-assign
+      h = h >= 10 ? h : "0" + h;
+      m = m >= 10 ? m : "0" + m;
+      s = s >= 10 ? s : "0" + s; // eslint-disable-next-line no-return-assign
 
       return result = h.toString() + m.toString() + s.toString();
     },
@@ -2121,7 +2125,7 @@ var script$1 = {
           password: password
         }).then(function (response) {
           var headers = response.headers;
-          setToken(headers['auth-token']);
+          setToken(headers["auth-token"]);
           resolve(response);
         }).catch(function (error) {
           reject(error);
@@ -2140,16 +2144,16 @@ var script$1 = {
         res = res.data;
 
         if (res.returnState.stateCode === 0) {
-          _this12.$set(_this12.videoList[index], 'speed', speed);
+          _this12.$set(_this12.videoList[index], "speed", speed);
         } else {
-          _this12.$set(_this12.videoList[index], 'speed', 1);
+          _this12.$set(_this12.videoList[index], "speed", 1);
         }
 
         video.playbackRate = _this12.videoList[index].speed;
       });
     },
     playReplayStop: function playReplayStop(playIndex, item, index) {
-      this.videoList[index].replaySrc = '';
+      this.videoList[index].replaySrc = "";
     }
   }
 };var __$_require_assets_video_close_png__ = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAoCAYAAACM/rhtAAAAAXNSR0IArs4c6QAAAy9JREFUWAnNmbFu01AUhpMg2qEgUGkjZfNYwUwlqgzdyZYX6MICggfgMZBgZmGGIWWuRNRKsFdVp2SKlBYEajMQiYT/MzmR48TxvYlx+kt/fHN9z7lfru1jJykWFtemQnfkinw3YjULVxF31D6Tf8jeKnpG3NH4XRmwsmdsV+MB/Spfu8a6Aq4r4RN5T15zTZ4wrq/+Y/lE/p0wZtztAvhQo5/KG+OobBo9pTmUT+eluzVnJ/D7MnDLrppSTImcj0a97am9o44kwNvaX5cfJwVm2B8oF+fzuTyQJzQLkJUDjkObl7Y10ZY8dbhnAe5rYB4rp2kmBCRqha+jlzigXRDRMXm2A03WlS9s0pI1tKWUcEGsWjDAEioKSJ3bGPWvcgMDLKEMkDsERThVpVKpgH3lGQcLTAWbaVft1FrHJO12+1mn03lRrVbvk8BFjCWGWMcPBwtMY0DurU5ak8rl8laj0ThwgWQMY4kh1mmSf4NCJlaQpxIKZaoGg0GhXq9/+CXdk9IgDY6xxBBLDkfBtAmg8+qRuNls/qzVau/TIONwxBBLDg/tAFjxCAiHpkFmBMdcFW5rB3Ige2sWCEk49HZYF1w5Y2kB+FJ+YD2+2zgk8RnBkeo7gK9ln6uLwAlFIdnB+bnkyln+vtVB67hxWwD5grOwoqvHyiEOcVoJcpzwainAOByHFWcIuTjgLDjKT1oJclw5GxYCduyd6zYJzuIzhOxwiPmu6qw0OEuUEeQZZQY9l1PvxzyJ8FTCjZ/zzKWURD9Qt9u9rFQqbx3vxzxZv7My47yKfYmJXOD45LaSxBBLn6NCJltBHg5fyakF257nHFdhzOIZxwd5I1/blyY6aAfyXA2HwwL2lWfcF+U/Zw47xLRP5B6NFQsGWEJFAfkh53DUv8oNDLCEskNs7y9GjcA6ct4eab5v0TnjgOxry5Scbd7kqFPN9Tk+3yxAxnCC8ltJXpDAfZT/yBNKAuSbDUEoCF//38uRUrNyU3BMmQTIPtSSqeiBnFojNcZHPQ3+JE+cc/EExXhHwvt19fNzxJ68LCg191imlIyvVrVnyhXQgm/sj+gGGN3m8jfEX481khgFbv/1AAAAAElFTkSuQmCC";
@@ -2187,6 +2191,9 @@ var __vue_render__$1 = function __vue_render__() {
       attrs: {
         "span": item.span
       }
+    }, [_c('div', {
+      staticClass: "video-box",
+      class: _vm.videoOption.bigness === 'small' ? 'small-video-wrap' : ''
     }, [_c('div', {
       directives: [{
         name: "loading",
@@ -2430,7 +2437,7 @@ var __vue_render__$1 = function __vue_render__() {
           return _vm.changeSpeed(item, index, 1);
         }
       }
-    }, [_vm._v("\n              1.0X\n            ")]), _vm._v(" "), _c('span', {
+    }, [_vm._v("\n                1.0X\n              ")]), _vm._v(" "), _c('span', {
       staticClass: "speed",
       class: item.speed === 2 ? 'active' : '',
       on: {
@@ -2438,7 +2445,7 @@ var __vue_render__$1 = function __vue_render__() {
           return _vm.changeSpeed(item, index, 2);
         }
       }
-    }, [_vm._v("\n              2.0X\n            ")]), _vm._v(" "), _c('span', {
+    }, [_vm._v("\n                2.0X\n              ")]), _vm._v(" "), _c('span', {
       staticClass: "speed",
       class: item.speed === 4 ? 'active' : '',
       on: {
@@ -2446,7 +2453,7 @@ var __vue_render__$1 = function __vue_render__() {
           return _vm.changeSpeed(item, index, 4);
         }
       }
-    }, [_vm._v("\n              4.0X\n            ")])]), _vm._v(" "), _c('el-date-picker', {
+    }, [_vm._v("\n                4.0X\n              ")])]), _vm._v(" "), _c('el-date-picker', {
       directives: [{
         name: "show",
         rawName: "v-show",
@@ -2494,7 +2501,7 @@ var __vue_render__$1 = function __vue_render__() {
           return _vm.changeLine($event, item, index);
         }
       }
-    }) : _vm._e()], 1)]);
+    }) : _vm._e()], 1)])]);
   }), 1)], 1);
 };
 
@@ -2503,8 +2510,8 @@ var __vue_staticRenderFns__$1 = [];
 
 var __vue_inject_styles__$1 = function __vue_inject_styles__(inject) {
   if (!inject) return;
-  inject("data-v-359f081e_0", {
-    source: ".videotemplate{user-select:none;height:100%;width:100%}.videotemplate .el-row{width:100%;height:100%;padding:0 5px!important;margin:0!important}.videotemplate .el-col{padding:0!important;height:100%}.videotemplate .fullScreen{position:fixed;top:0;left:0;z-index:9999;transition:all .5s}.videotemplate .videowrap{position:relative;transition:all .5s}.videotemplate .el-col-12,.videotemplate .el-col-6{height:50%}.videotemplate .el-col-8{height:33.3333%}.videotemplate .fullScreen,.videotemplate .videowrap{border:2px solid #000;height:100%;width:100%;background:#1e2427}.videotemplate .fullScreen .videoTitle,.videotemplate .videowrap .videoTitle{position:absolute;z-index:5;color:#fff;top:0;left:0}.videotemplate .fullScreen .water,.videotemplate .videowrap .water{user-select:none;position:absolute;color:#fff;opacity:.6;z-index:99;top:15%;left:10%;text-align:center;line-height:30px;font-size:30px;font-weight:600}.videotemplate .fullScreen .water3,.videotemplate .videowrap .water3{top:75%;left:70%}.videotemplate .fullScreen .water2,.videotemplate .videowrap .water2{top:45%;left:40%}.videotemplate .fullScreen video,.videotemplate .videowrap video{object-fit:fill}.videotemplate .fullScreen .control,.videotemplate .videowrap .control{display:flex;box-sizing:border-box;opacity:0;transition:opacity .5s;width:100%;height:40px;position:absolute;bottom:2px;left:2px}.videotemplate .fullScreen .control button,.videotemplate .videowrap .control button{background:0 0;border:none;padding:0}.videotemplate .fullScreen .control .play-speed,.videotemplate .videowrap .control .play-speed{width:130px;height:40px;border-radius:10px;background:rgba(0,0,0,.5);color:#fff;bottom:0}.videotemplate .fullScreen .control .play-speed:hover,.videotemplate .videowrap .control .play-speed:hover{color:#fff}.videotemplate .fullScreen .control .play-speed .speed,.videotemplate .videowrap .control .play-speed .speed{width:50px;height:100%;text-align:center;cursor:pointer;padding:0 5px}.videotemplate .fullScreen .control .play-speed .speed:hover,.videotemplate .videowrap .control .play-speed .speed:hover{color:#3075ff}.videotemplate .fullScreen .control .play-speed .speed.active,.videotemplate .videowrap .control .play-speed .speed.active{color:#3075ff}.videotemplate .fullScreen .control .el-date-editor,.videotemplate .videowrap .control .el-date-editor{height:40px!important;position:absolute;background:rgba(0,0,0,.5);border-radius:10px;right:5px;bottom:0;width:150px}.videotemplate .fullScreen .control .el-date-editor .el-input__inner,.videotemplate .videowrap .control .el-date-editor .el-input__inner{height:40px!important;background:rgba(0,0,0,.5);border:none}.videotemplate .fullScreen .control .el-date-editor .el-input__icon,.videotemplate .videowrap .control .el-date-editor .el-input__icon{line-height:40px}.videotemplate .fullScreen:hover .closrControl,.videotemplate .fullScreen:hover .control,.videotemplate .videowrap:hover .closrControl,.videotemplate .videowrap:hover .control{cursor:pointer;opacity:1;transition:opacity .5s}.videotemplate .tcl{position:absolute;opacity:0;color:red;top:10px;font-weight:600;left:10px;font-size:20px;animation:flash 1s infinite}@keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.videotemplate .closrControl{position:absolute;opacity:0;top:10px;right:10px;z-index:999999999}.videotemplate .closrControl button{background:0 0;border:none;padding:0}.videotemplate .error{position:absolute;width:100%;height:100%;background:rgba(0,0,0,.8);top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column}.videotemplate .error>span{padding:20px 0;font-size:20px;color:red}.videotemplate .timeline canvas{width:100%}.videotemplate .show{display:block}.videotemplate .hide{display:none}.videotemplate .animate__animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.videotemplate .animate__shakeX{-webkit-animation-name:shakeX;animation-name:shakeX}@-webkit-keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}",
+  inject("data-v-feb2671e_0", {
+    source: ".videotemplate{user-select:none;height:100%;width:100%}.videotemplate .el-row{width:100%;height:100%;padding:0 5px!important;margin:0!important}.videotemplate .el-col{padding:0!important;height:100%}.videotemplate .fullScreen{position:fixed;top:0;left:0;z-index:9999;transition:all .5s}.videotemplate .videowrap{position:relative;transition:all .5s}.videotemplate .el-col-12,.videotemplate .el-col-6{height:50%}.videotemplate .el-col-8{height:33.3333%}.videotemplate .fullScreen,.videotemplate .videowrap{border:2px solid #000;height:100%;width:100%;background:#1e2427}.videotemplate .fullScreen .videoTitle,.videotemplate .videowrap .videoTitle{position:absolute;z-index:5;color:#fff;top:0;left:0}.videotemplate .fullScreen .water,.videotemplate .videowrap .water{user-select:none;position:absolute;color:#fff;opacity:.6;z-index:99;top:15%;left:10%;text-align:center;line-height:30px;font-size:30px;font-weight:600}.videotemplate .fullScreen .water3,.videotemplate .videowrap .water3{top:75%;left:70%}.videotemplate .fullScreen .water2,.videotemplate .videowrap .water2{top:45%;left:40%}.videotemplate .fullScreen video,.videotemplate .videowrap video{object-fit:fill}.videotemplate .fullScreen .control,.videotemplate .videowrap .control{display:flex;box-sizing:border-box;opacity:0;transition:opacity .5s;width:100%;height:40px;position:absolute;bottom:2px;left:2px}.videotemplate .fullScreen .control button,.videotemplate .videowrap .control button{background:0 0;border:none;padding:0}.videotemplate .fullScreen .control .play-speed,.videotemplate .videowrap .control .play-speed{width:130px;height:40px;border-radius:10px;background:rgba(0,0,0,.5);color:#fff;bottom:0}.videotemplate .fullScreen .control .play-speed:hover,.videotemplate .videowrap .control .play-speed:hover{color:#fff}.videotemplate .fullScreen .control .play-speed .speed,.videotemplate .videowrap .control .play-speed .speed{width:50px;height:100%;text-align:center;cursor:pointer;padding:0 5px}.videotemplate .fullScreen .control .play-speed .speed:hover,.videotemplate .videowrap .control .play-speed .speed:hover{color:#3075ff}.videotemplate .fullScreen .control .play-speed .speed.active,.videotemplate .videowrap .control .play-speed .speed.active{color:#3075ff}.videotemplate .fullScreen .control .el-date-editor,.videotemplate .videowrap .control .el-date-editor{height:40px!important;position:absolute;background:rgba(0,0,0,.5);border-radius:10px;right:5px;bottom:0;width:150px}.videotemplate .fullScreen .control .el-date-editor .el-input__inner,.videotemplate .videowrap .control .el-date-editor .el-input__inner{height:40px!important;background:rgba(0,0,0,.5);border:none}.videotemplate .fullScreen .control .el-date-editor .el-input__icon,.videotemplate .videowrap .control .el-date-editor .el-input__icon{line-height:40px}.videotemplate .fullScreen:hover .closrControl,.videotemplate .fullScreen:hover .control,.videotemplate .videowrap:hover .closrControl,.videotemplate .videowrap:hover .control{cursor:pointer;opacity:1;transition:opacity .5s}.videotemplate .tcl{position:absolute;opacity:0;color:red;top:10px;font-weight:600;left:10px;font-size:20px;animation:flash 1s infinite}@keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}.videotemplate .closrControl{position:absolute;opacity:0;top:10px;right:10px;z-index:999999999}.videotemplate .closrControl button{background:0 0;border:none;padding:0}.videotemplate .error{position:absolute;width:100%;height:100%;background:rgba(0,0,0,.8);top:0;left:0;display:flex;align-items:center;justify-content:center;flex-direction:column}.videotemplate .error>span{padding:20px 0;font-size:20px;color:red}.videotemplate .timeline canvas{width:100%}.videotemplate .show{display:block}.videotemplate .hide{display:none}.videotemplate .animate__animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.videotemplate .animate__shakeX{-webkit-animation-name:shakeX;animation-name:shakeX}@-webkit-keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}@keyframes shakeX{from,to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}10%,30%,50%,70%,90%{-webkit-transform:translate3d(-10px,0,0);transform:translate3d(-10px,0,0)}20%,40%,60%,80%{-webkit-transform:translate3d(10px,0,0);transform:translate3d(10px,0,0)}}.videotemplate .video-box{width:100%;height:100%}.videotemplate .small-video-wrap{width:100%;height:100%}.videotemplate .small-video-wrap .videoTitle{font-size:12px}.videotemplate .small-video-wrap .water{font-size:14px}.videotemplate .small-video-wrap .water2{top:40%;left:35%}.videotemplate .small-video-wrap .water3{top:65%;left:60%}.videotemplate .small-video-wrap .closrControl{top:4px;right:4px}.videotemplate .small-video-wrap .closrControl .el-button,.videotemplate .small-video-wrap .closrControl img,.videotemplate .small-video-wrap .control .el-button,.videotemplate .small-video-wrap .control img{width:24px;height:24px}.videotemplate .small-video-wrap .control{height:24px;left:4px}.videotemplate .small-video-wrap .error>span{font-size:14px}",
     map: undefined,
     media: undefined
   });
@@ -2515,7 +2522,7 @@ var __vue_inject_styles__$1 = function __vue_inject_styles__(inject) {
 var __vue_scope_id__$1 = undefined;
 /* module identifier */
 
-var __vue_module_identifier__$1 = "data-v-359f081e";
+var __vue_module_identifier__$1 = "data-v-feb2671e";
 /* functional template */
 
 var __vue_is_functional_template__$1 = false;

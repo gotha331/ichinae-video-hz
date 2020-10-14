@@ -44,7 +44,8 @@ data() {
         videoOption: {
             size: 4, // 分频数  1 4
             text: 'admin', // 水印名字
-            disabledDb: true // 禁用双击
+            disabledDb: true, // 禁用双击
+            bigness:'small' //适配较小视频视窗，默认正常大小，不用添加此参数
         },
         vmsOption: {
             ipcLinkInfo: {
